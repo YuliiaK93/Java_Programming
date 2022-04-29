@@ -10,4 +10,15 @@ public class HelloWorld {  // This is class header
 
 }
 
+/*
+Today I have learned:
+            1. Main Method
+            2. Print Statement
+            3. Execution mechanism
+            4. Components of Java
+
+        04/28/2022
+
+*/
+
 
