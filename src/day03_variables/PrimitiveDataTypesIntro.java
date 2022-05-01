@@ -16,10 +16,15 @@ public class PrimitiveDataTypesIntro {
         short p = 17500;
 
     // salary is 95000
-        int s = 95000;
+        int s = 95000;  //preferred
 
      //   int number = 9999999999;
         long number = 9999999999L;
+
+
+    // gpa is 3.5
+    double gpa1 =  3.5; // preferred
+    float gpa2 =  3.5F;
 
 
 
