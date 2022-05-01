@@ -24,7 +24,6 @@ public class EmployeeInfo {
         */
 
 
-
         String name = "Emily";
         int age = 30;
         char gender = 'F';
