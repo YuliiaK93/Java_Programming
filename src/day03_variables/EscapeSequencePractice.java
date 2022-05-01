@@ -1,6 +1,6 @@
 package day03_variables;
 
-public class EscapeSequencePractice {
+public class EscapeSequencePractice { // Single line comment
 
     public static void main(String[] args) {
 
