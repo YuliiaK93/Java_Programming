@@ -12,7 +12,7 @@ public class ReplaceVariableName {
         System.out.println(student_name);
         System.out.println(student_name);
 
-        double salary = 100000.5;
+        int salary = 100000;
 
         System.out.println(salary);
         System.out.println(salary);
