@@ -24,7 +24,7 @@ public class EmployeeInfo {
         */
 
 
-        String name = "Emily";
+        String employeeName = "Emily";
         int age = 30;
         char gender = 'F';
         String companyName = "Google Inc";
@@ -34,7 +34,7 @@ public class EmployeeInfo {
         boolean isFullTime = false;
 
 
-        System.out.println(name);
+        System.out.println(employeeName);
         System.out.println(age);
         System.out.println(gender);
         System.out.println(companyName);
@@ -46,7 +46,7 @@ public class EmployeeInfo {
         System.out.println("-----------------------------------------------------");
 
 
-        System.out.println("name = " + name);
+        System.out.println("employeeName = " + employeeName);
         System.out.println("age = " + age);
         System.out.println("gender = " + gender);
         System.out.println("companyName = " + companyName);
