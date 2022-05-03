@@ -23,3 +23,12 @@ Warmup task:
 
 declare variable:
 	DataType variableName = Data
+
+
+primitives:
+		byte < short < int < long < float < double
+
+
+
+
+
