@@ -18,4 +18,3 @@ Warmup task:
 			8. favorite show
 			9. favorite color
 			10. married status
-
