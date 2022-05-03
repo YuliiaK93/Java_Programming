@@ -9,7 +9,7 @@ public class ShippingAddress {
         String streetName = "Federalist Way";
         String city = "McLean";
         String state = "VA";
-        String zipCode = "20121";
+        String zipCode = "20121B";
 
         System.out.println("Your Shipping address is:");
         System.out.println("\t" + name);
