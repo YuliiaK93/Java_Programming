@@ -37,6 +37,14 @@ primitives:
 1,000,000
 
 
+Concatenation:
+		
+		"text" + "text"
+		"text" + number/Any data
+		any data + "text"
+
+Addition:
+		number + number
 
 
 
