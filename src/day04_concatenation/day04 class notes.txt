@@ -7,7 +7,7 @@ Topics: Primitive Type Castings
 Package name: day04_concatenation
 
 Warmup task:
-	1. Create a class named PeronalInfo, and declare the variables with the appropriate for the followings:
+	1. Create a class named PersonalInfo, and declare the variables with the appropriate for the followings:
 			1. first name
 			2. last name
 			3. gender
