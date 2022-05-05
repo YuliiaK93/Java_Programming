@@ -24,7 +24,6 @@ come back at: 12:02 pm
 
 
 
-
 javaprogramming
 helloeveryonehowareyoutoday
 
@@ -61,11 +60,6 @@ Shortcut:
 
 		Mac users:
 			Command + option +L
-
-
-
-
-
 
 
 
