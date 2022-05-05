@@ -32,3 +32,4 @@ Warmup tasks:
 				    		State tax is: $7020
 				    		Total tax is: $37440
 				    		Net income is: 79560
+
