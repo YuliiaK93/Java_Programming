@@ -75,8 +75,13 @@ public class ShorthandOperators {
 
         System.out.println(salary);
 
+        System.out.println("------------------------------------------");
 
+        int b = 39;
 
+        b %= 7;  // b = 39 % 7
+
+        System.out.println(b);
 
 
 
