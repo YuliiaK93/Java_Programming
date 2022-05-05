@@ -8,21 +8,20 @@ Package name: day03_variables
 warmup tasks:
 	1. Make sure you have created "GitHub" & "Repl.it" Accounts
 
-	2. Make sure you alreay joined "Zero to Hero JDB1" repl.it team
+	2. Make sure you already joined "Zero to Hero JDB1" repl.it team
 
 	3. Create a Java file named EscapeSequencesPractice.java
 			1.1 Write a program that can display the following message:
 
 			Output:
-				 	My Favorrite programming language is "Java"
-				 		Java is an "Object Oreinted" programming language.
+				 	My Favorite programming language is "Java"
+				 		Java is an "Object-Oriented" programming language.
 
 	 		Note: do not use more than one print statement
 
-	 		
 
 Numbers:
-	Inetger Numbers: byte, short, int, long
+	Integer Numbers: byte, short, int, long
 
 	Decimal numbers: float, double
 
@@ -46,6 +45,3 @@ variable naming rules:
 		4. can not have special characters other than _ and $
 		5. can not start with digits
 		6. can not be java reserved words
-
-
-

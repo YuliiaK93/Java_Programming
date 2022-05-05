@@ -48,5 +48,4 @@ Declare the following variables with appropriate data types:
     student_id
     grade_level
     gpa
-
  */
