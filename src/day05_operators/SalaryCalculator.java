@@ -4,10 +4,10 @@ public class SalaryCalculator {
 
     public static void main(String[] args) {
 
-        double hourlyRate = 45,
-                weeklyHours = 40;
-        double stateTaxRate = 6; // implicit casting
-        double federalTaxRate = 25.5;
+        double hourlyRate = 55,
+                weeklyHours = 45;
+        double stateTaxRate = 7.5; // implicit casting
+        double federalTaxRate = 24.5;
 
     //------------------------------------------------------------------------
 
