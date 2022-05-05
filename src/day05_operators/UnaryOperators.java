@@ -33,6 +33,23 @@ public class UnaryOperators {
 
         System.out.println("------------------------------------");
 
+        int n = 30;
+
+        int m = n++;  // m =  30, n=31
+
+        System.out.println("n = " + n);
+        System.out.println("m = " + m);
+        
+        int z = 60;
+        
+        int q = z--; // q =60, z = 59
+
+        System.out.println("z = " + z);
+        System.out.println("q = " + q);
+        
+
+
+
 
 
     }
