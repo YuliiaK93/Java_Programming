@@ -32,5 +32,4 @@ public class EscapeSequences {
     2. \t: Paragraph space
     3. \\: Single back slash
     4. \": double quote
-
  */

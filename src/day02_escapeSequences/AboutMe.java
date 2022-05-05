@@ -18,5 +18,4 @@ Write a code to print the following info about you:
     Your favorite quote
     Your favorite TV show
     Your favorite music
-
  */
