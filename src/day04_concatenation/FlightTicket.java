@@ -12,7 +12,6 @@ public class FlightTicket {
         System.out.println("From "+from + " to " + to + " is $"+ticketPrice);
 
 
-
     }
 
 

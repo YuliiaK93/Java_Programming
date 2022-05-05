@@ -53,5 +53,4 @@ public class PersonalInfo {
 			9. favorite color
 			10. married status
 			11. employee status
-
  */

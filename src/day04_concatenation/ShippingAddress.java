@@ -22,7 +22,6 @@ public class ShippingAddress {
                 + buildingNumber + " " + streetName + "\n\t" + city + ", " + state +" " + zipCode);
 
 
-
     }
 
 

@@ -90,7 +90,3 @@ Remainder: numerator - (denominator * integer result)
 		15 % 4 ==> 3
 
 
-
-
-
-

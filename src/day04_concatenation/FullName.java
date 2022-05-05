@@ -22,5 +22,4 @@ lastName
 Use concatenation to print the full name
 Ex:
 	   Your full name is Daniel Jefferson
-
  */
