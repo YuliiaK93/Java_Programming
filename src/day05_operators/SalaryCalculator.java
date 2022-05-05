@@ -32,13 +32,8 @@ public class SalaryCalculator {
         System.out.println("Gross pay is: $" + salaryBeforeTax +
                 "\nFederal tax is: $" + federalTax  +
                 "\nState tax is: $" + stateTax +
-                "\nTotal tax is: $" + totalTax + "\nNet income is: $" + salaryAfterTax);
-
-
-
-
-
-
+                "\nTotal tax is: $" + totalTax +
+                "\nNet income is: $" + salaryAfterTax);
 
 
 
