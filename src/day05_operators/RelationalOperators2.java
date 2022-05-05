@@ -16,8 +16,19 @@ public class RelationalOperators2 {
 
         System.out.println( true == false);
 
+        System.out.println("-----------------------------");
 
         // != :
+
+        System.out.println(1000 != 2000); // true
+
+        System.out.println("Java" != "Java"); // false
+
+        System.out.println("java" != "JAVA");  // true
+
+        System.out.println("Muhtar" != "Good Guy"); // true
+
+        System.out.println( true != false);  // true
 
 
 
