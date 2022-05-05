@@ -5,7 +5,7 @@ Topics: Operators
 			- Relational
 			- Logical
 
-package name: day05_Operators
+package name: day05_operators
 
 Warmup tasks:
 	1. Create a class called SalaryCalculator.java
@@ -32,4 +32,9 @@ Warmup tasks:
 				    		State tax is: $7020
 				    		Total tax is: $37440
 				    		Net income is: 79560
+
+arithmetic operators: +, -, *, /, %
+	
+
+
 
