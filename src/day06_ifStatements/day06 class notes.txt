@@ -16,7 +16,6 @@ Warmup task:
 				20 is an even number: true
 				20 is an odd number: false
 
-
 		Hint: even numbers are the numbers that are evenly divisible by 2 (remainder is zero)
 
 
@@ -29,7 +28,6 @@ Warmup task:
 		        200 is positive number: true
 		        200 is negative number: false
 		        200 is zero: false
-
 
     3. Create a class named EvenlyDivisible, and write a program that can check if a number is evenly divisible by 2, 3, 5        
             Ex:
