@@ -8,7 +8,6 @@ public class GradeLevel2 {
 
         String result = "" ; // temporary value
 
-
         if(gradeLevel >= 1 && gradeLevel <= 5){
            result = "Elemntary School";
         }
@@ -28,7 +27,6 @@ public class GradeLevel2 {
         if(gradeLevel >= 17 && gradeLevel <= 18){
            result = "Grad School";
         }
-
 
         System.out.println("result = " + result);
 
