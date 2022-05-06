@@ -42,6 +42,7 @@ Warmup task:
 
 
 
+Single If Statement: can be used for crreating condition for one possible output
 
 
 
