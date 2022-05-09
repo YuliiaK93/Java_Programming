@@ -10,7 +10,7 @@ public class GradeReport {
 
         if(score >= 90){ // false: score < 90
             result = "A";
-        }else if(score >= 80){ //false: score < 80
+        }else if(score >= 80 && score < 90){ //false: score < 80
             result = "B";
         }else if(score >= 70){ // false: score < 70
             result = "C";
