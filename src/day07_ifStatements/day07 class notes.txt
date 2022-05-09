@@ -67,6 +67,8 @@ Multi branch If: when there are three more options/possibilities/alternatives we
 
 
 
+If statement without curly braces: 
+            without the curcly braces the blocks of if statement can only have one statement in its body
 
 
 
