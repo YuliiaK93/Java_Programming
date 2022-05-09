@@ -4,7 +4,6 @@ Topics: Multi-branch if
 		If statement without curly braces
 		Nested if
 
-
 package name: day07_ifStatements
 
 Warmup Tasks:
@@ -12,7 +11,6 @@ Warmup Tasks:
             Note:In order to be eligible for a loan:
                     1. salary: at least 45K
                     2. credit score: at least 700
-
 
 
 	2. Create a class named Grade, a char variable named grade is given. write a program to print the following messages:
