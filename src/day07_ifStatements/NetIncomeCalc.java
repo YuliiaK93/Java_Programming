@@ -4,7 +4,9 @@ public class NetIncomeCalc {
 
     public static void main(String[] args) {
 
-        int salary =200000;
+        int salary = 100000;
+        boolean isMarried = true;
+
 
         double taxRate = 0;
 
@@ -24,6 +26,17 @@ public class NetIncomeCalc {
             taxRate= 0.2;
         }
 
+
+        if(isMarried){  // if the person is married
+            taxRate -= 0.05; //tax is reduced by 5%
+        }
+
+        double totalTax = salary * taxRate;
+        double netIncome = salary - totalTax;
+
+        System.out.println("salary = " + salary);
+        System.out.println("totalTax = " + totalTax);
+        System.out.println("netIncome = " + netIncome);
 
 
 
