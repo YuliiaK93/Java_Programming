@@ -38,7 +38,6 @@ public class Elevator {
 
         }
 
-
         System.out.println(result);
 
 
