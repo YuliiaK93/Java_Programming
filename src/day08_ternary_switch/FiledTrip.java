@@ -4,7 +4,7 @@ public class FiledTrip {
 
     public static void main(String[] args) {
 
-        int grade = 100;
+        int grade = 6;
 
         String location = "Unknown";
         int numOfGroups = 0;
@@ -32,13 +32,18 @@ public class FiledTrip {
                 location = "Museum";
                 numOfGroups = 5;
                 teacher = "Ms. Lela";
-            }else{
+            }else{ // grade  == 6
                 location = "Six Flags";
                 numOfGroups = 6;
                 teacher = "Mr. Watt";
             }
 
         }
+
+
+        System.out.println("Local - " + location);
+        System.out.println("Number of groups - "+numOfGroups);
+        System.out.println("Teacher in charge - "+teacher);
 
 
 
