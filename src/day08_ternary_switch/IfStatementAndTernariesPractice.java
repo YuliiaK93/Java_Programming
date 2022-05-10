@@ -2,7 +2,7 @@ package day08_ternary_switch;
 
 public class IfStatementAndTernariesPractice {
 
-    public static void main(String[] args) {
+    public static vo (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F";id main(String[] args) {
 
         int score = 90;
 
@@ -10,7 +10,7 @@ public class IfStatementAndTernariesPractice {
 
         if (score >= 0 && score <= 100) {
 
-            result = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : (score >= 60) ? "D" : "F";
+            result =
 
         } else {
             result = "Invalid Score";
