@@ -1,6 +1,6 @@
 package day08_ternary_switch;
 
-public class TernaryIntro2 {
+public class TernariesIntro2 {
 
     public static void main(String[] args) {
 
