@@ -106,7 +106,6 @@ Multi-branch if: for three or more conditions
 		D: all the previous conditions are false
 
 
-
 Nested If: for pre-conditions
 		
 		if(Pre-Condition){
@@ -125,18 +124,6 @@ Nested If: for pre-conditions
 		A: Pre-Condition is true, ConditionA is true
 		B: Pre-Condition is true, ConditionA is false
 		C: Pre-Condition is false
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
