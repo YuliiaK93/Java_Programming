@@ -19,6 +19,11 @@ public class SwitchStatementIntro3 {
             result = "F";
         }
 
+        /*
+        switch (score){
+            case >= 80 && <= 90
+        }
+*/
         //-----------------------------------------------------------
 
         int number = 14;
