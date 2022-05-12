@@ -4,7 +4,7 @@ public class NumberOfDays {
 
     public static void main(String[] args) {
 
-        int month = 15;
+       int month = 15;
 
         String result = "";
 
@@ -27,8 +27,9 @@ public class NumberOfDays {
 
             default:
                 result = "Invalid number";
-
         }
+
+        System.out.println(result);
 
 
     }
