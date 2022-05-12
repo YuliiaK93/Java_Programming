@@ -20,6 +20,7 @@ public class ScannerIntro3 {
 
         System.out.println("You have entered: " + answer);
 
+        input.close();
 
     }
 
