@@ -6,7 +6,7 @@ Topics: Switch Statement Continue
 package name: day09_scanner
 
 Warmup tasks:
-	1. Create a class named CrewAndPassangers1
+	1. Create a class named CrewAndPassangers
 		Given a number of people on the ship (int number)
 		determine how many need to be crew members and how many can be passengers. 
 		Print how many of each type there should be.
