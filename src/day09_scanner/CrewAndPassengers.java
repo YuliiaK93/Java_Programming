@@ -60,4 +60,5 @@ Create a class named CrewAndPassengers
 
                 Solution1: Use ternary. Do not use more than one println()
                 Solution2: Use switch statement. Do not use more than one println()
+
  */
