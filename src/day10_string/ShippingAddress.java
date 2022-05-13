@@ -35,6 +35,7 @@ public class ShippingAddress {
         System.out.println("\t" + buildingNumber+" "+streetName);
         System.out.println("\t" + cityName + ", " + stateName + " " +zip);
 
+        input.close();
 
 
     }
