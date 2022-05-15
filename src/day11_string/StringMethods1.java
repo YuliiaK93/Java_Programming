@@ -75,6 +75,21 @@ public class StringMethods1 {
         System.out.println(a4);
 
 
+        //-----------------------------------------
+
+        String w = "Java";
+
+        System.out.println(w.indexOf('a')); //1
+
+        System.out.println(w.lastIndexOf('a')); //3
+
+        String w2 = "Java Python JavaScript Cydeo Python";
+
+
+        System.out.println(w2.lastIndexOf('a'));
+
+        System.out.println(w2.lastIndexOf('P'));
+
 
 
     }
