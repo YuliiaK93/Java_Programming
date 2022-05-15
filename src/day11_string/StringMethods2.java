@@ -88,6 +88,14 @@ public class StringMethods2 {
 
         System.out.println(tomorrow);
 
+        System.out.println("------------------------------------");
+
+        String str = "Python";
+
+        String result = (str +"\n").repeat(10);
+
+        System.out.println(result);
+
 
 
 
