@@ -1,0 +1,7 @@
+Java Programming Day12
+
+Topic: Custom methods Intro
+				Void Methods
+				Parameters
+
+package name: day12_customMethods
