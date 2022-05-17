@@ -24,6 +24,9 @@ public class CustomMethodsWithParameter {
     }
 
 
+
+
+
     // the method takes an argument number, and verifies if the number is odd number or even number
     public static void oddOrEven(int number){
 
