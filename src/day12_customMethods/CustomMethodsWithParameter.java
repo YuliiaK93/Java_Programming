@@ -49,10 +49,18 @@ public class CustomMethodsWithParameter {
     // create a method that can calculate the grade of the students  (score)
 
 
-    // create a method that can print the maximum number between two numbers, if both are equal then it prints "Equal"
+    // create a method that can print the maximum number between two numbers, if both are equal then it prints "Equal", (num1, num2)
 
 
-    //Create a method that can display the initials of a person
+    //Create a method that can display the initials of a person  (firstName, lastName)
+
+        /*
+        firstname = "Cydeo"
+        lastname = "School"
+
+
+        initial ==> C.S
+         */
 
 
 
