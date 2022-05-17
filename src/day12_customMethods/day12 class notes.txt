@@ -61,3 +61,18 @@ Warmup tasks:
 		            Total tip: 119.0
 		            Total per person: 148.75
 		            Tip per person: 29.75
+
+
+
+
+Custom Methods:
+		1. Void methods
+		2. Parameters
+		3. Return Methods
+		4. Return with parameters
+		5. Method Overloading
+
+
+
+
+
