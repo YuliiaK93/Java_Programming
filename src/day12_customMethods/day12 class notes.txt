@@ -26,7 +26,6 @@ Warmup tasks:
                 input: mike_tyson@gmail.com
                 output: tyson_mike@gmail.com
 
-
     3. Create a class called TipCalculator, and write a program for a tip calculator. 
 	    There will be different service quality benchmarks that will determine the tip given. 
 	    There will also the ability to calculate based on the number of people in the party and if there is a split of the bill or not.
