@@ -4,11 +4,22 @@ public class CustomMethodsWithParameter {
 
     public static void main(String[] args) {
 
-        oddOrEven(100);
 
-        System.out.println("--------------------------");
+        int num1 = 100;
+        oddOrEven(num1);
 
-        oddOrEven(10000);
+        int num2 = 35;
+        oddOrEven(num2);
+
+
+        int num3 = 79;
+        oddOrEven(num3);
+
+
+        int num4 = 39;
+        oddOrEven(num4);
+
+
 
     }
 
@@ -29,14 +40,16 @@ public class CustomMethodsWithParameter {
     // create a method that can check if a person is eligible to buy alcohol  (age)
 
 
-
     // create a method that can check if a number is odd, or even or zero (number)
-
 
 
     // create a method that can calculate the grade of the students  (score)
 
 
+    // create a method that can print the maximum number between two numbers, if both are equal then it prints "Equal"
+
+
+    //Create a method that can display the initials of a person
 
 
 
