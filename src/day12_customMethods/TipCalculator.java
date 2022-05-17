@@ -20,6 +20,8 @@ public class TipCalculator {
         System.out.println("How was the service quality? (Excellent/Great/Good/Fair/Poor)");
         String service = input.next().toLowerCase();
 
+        input.close();
+
         double totalTip = (service.equals("excellent"))? amount * 0.25  // 25
                         :(service.equals("great"))? amount * 0.2
                         :(service.equals("good"))? amount * 0.15
