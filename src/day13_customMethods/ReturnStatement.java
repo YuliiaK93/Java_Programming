@@ -14,6 +14,7 @@ public class ReturnStatement {
         boolean exit = true;
         if(exit){
             return; // main method gets terminated
+        //    System.out.println("Hello");
         }
 
         System.out.println("Test1 Completed");
@@ -47,6 +48,7 @@ public class ReturnStatement {
         int result = n1 * n2;
 
         return result; // returns the value when exiting the method
+     //   System.out.println("Hello");
 
     }
 
