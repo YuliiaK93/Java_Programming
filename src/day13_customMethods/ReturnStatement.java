@@ -7,7 +7,18 @@ public class ReturnStatement {
 
 
         eligible(25);
+        System.out.println("------------------------------------");
 
+        System.out.println("Test1 Started");
+
+        boolean exit = true;
+        if(exit){
+            return; // main method gets terminated
+        }
+
+        System.out.println("Test1 Completed");
+
+        System.out.println("Test2 started");
 
     }
 
@@ -17,7 +28,7 @@ public class ReturnStatement {
         if(age < 0 || age > 150){
             System.err.println("Invalid age: "+age);
             return; // exits the method
-            // if the age is invalid, then the this gets terminated
+            // if the age is invalid, then this method gets terminated
         }
 
 
@@ -35,7 +46,7 @@ public class ReturnStatement {
 
         int result = n1 * n2;
 
-        return result;
+        return result; // returns the value when exiting the method
 
     }
 
