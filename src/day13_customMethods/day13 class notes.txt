@@ -43,3 +43,43 @@ Warmup task:
 
 
 
+Methods: grouping code fargments  ===> creating function
+
+		
+
+		Access-Modifier   Specifier    Return-type    methodName(Parameter){
+
+				Code fragments
+
+		}
+
+
+		Access Modifiers: public, protected, deafult, private
+
+							public: ALWAYS ACCESSBILE
+
+
+		Specifiers: static, final, abstract, synchronized
+
+					static: can be called through the class name
+
+
+		Return-type: void, Any dataType
+
+					void: does not return any value
+
+
+		MethodName: meaningful, descriptive
+
+		Parameters: Any Data Type
+
+
+
+
+
+
+
+
+
+
+
