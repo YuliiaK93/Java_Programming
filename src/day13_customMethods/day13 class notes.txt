@@ -46,7 +46,7 @@ Warmup task:
 Methods: grouping code fargments  ===> creating function
 
 		
-
+											MUST         MUST
 		Access-Modifier   Specifier    Return-type    methodName(Parameter){
 
 				Code fragments
@@ -67,12 +67,20 @@ Methods: grouping code fargments  ===> creating function
 		Return-type: void, Any dataType
 
 					void: does not return any value
+					Any dataType: must return a vlaue
 
 
 		MethodName: meaningful, descriptive
 
 		Parameters: Any Data Type
 
+
+		MUST be declared inside the class and outside any other blocks/methods
+
+
+
+Return statement: used for exiting (terminating) the current mothod
+			we can also use it for returning value from return methods
 
 
 
