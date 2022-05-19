@@ -23,6 +23,12 @@ public class WarmupTasks {
 */
         System.out.println("---------------------------------------------------");
 
+        ageGroup(75);
+
+        System.out.println("---------------------------------------------------");
+
+        eligibleToVote(18, true);
+
 
     }
 
@@ -53,6 +59,33 @@ public class WarmupTasks {
 
         }
 
+
+    }
+
+
+    public static void ageGroup(int age){
+
+        if(age >=0  && age <= 150){
+
+            System.out.println(  (age < 21)? "Teenager"  :(age < 55)? "Adult" : "Senior" );
+
+        }else{
+
+            System.err.println("Invalid age: "+age);
+
+        }
+
+
+    }
+
+
+    public static void eligibleToVote(int age, boolean isAmerican){
+
+        if(age >= 18 && isAmerican){
+            System.out.println("You are eligible to vote");
+        }else{
+            System.err.println("You are not eligible to vote");
+        }
 
     }
 
