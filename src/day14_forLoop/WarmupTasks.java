@@ -9,20 +9,17 @@ public class WarmupTasks {
         System.out.println(str3);
 
 
-      String s1 = "" + true; //"true"
+        String s1 = "" + true; //"true"
 
-        String s2 = ""+'e'; // "e"
+        String s2 = "" + 'e'; // "e"
 
         System.out.println("-----------------------------------------------");
-
-
-
 
 
     }
 
 
-    public static String combine(String str1, String str2){
+    public static String combine(String str1, String str2) {
 
         String result;
 
@@ -34,14 +31,32 @@ public class WarmupTasks {
         }
          */
 
-        if( str1.charAt(str1.length()-1) == str2.charAt(0)  ){ // if the last character in first string is equal to the first character of the second string
-            result =  str1 + str2.substring(1); // first character of the second string should be excluded in the concatenation
-        }else{
+        if (str1.charAt(str1.length() - 1) == str2.charAt(0)) { // if the last character in first string is equal to the first character of the second string
+            result = str1 + str2.substring(1); // first character of the second string should be excluded in the concatenation
+        } else {
             result = str1 + str2;
         }
 
 
         return result;
+    }
+
+
+    public static int sumOf2IntegerNumbers(int n1, int n2) {
+        return n1 + n2;
+    }
+
+    public static int sumOf3IntegerNumbers(int n1, int n2, int n3) {
+        //   return  n1 + n2 + n3;
+        return sumOf2IntegerNumbers(n1, n2) + n3;
+    }
+
+
+    public static int sumOf4IntegerNumbers(int n1, int n2, int n3, int n4) {
+       // return n1 + n2 + n3 + n4;
+      //  return sumOf3IntegerNumbers(n1, n2, n3) + n4;
+      //  return sumOf2IntegerNumbers(n1, n2) + sumOf2IntegerNumbers(n3, n4);
+        return  sumOf2IntegerNumbers( sumOf3IntegerNumbers(n1, n2, n3) , n4 );
     }
 
 
