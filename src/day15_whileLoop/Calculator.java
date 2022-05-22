@@ -8,10 +8,10 @@ public class Calculator {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your first number:");
+        System.out.println("Enter your first number: ");
         double num1 = input.nextDouble();
 
-        System.out.println("Enter your second number:");
+        System.out.println("Enter your second number: ");
         double num2 = input.nextDouble();
 
         System.out.println("Enter a math operator: ");
@@ -25,7 +25,6 @@ public class Calculator {
          }
 
 
-
         if(operator == '+'){
             System.out.println(num1 + num2);
         }else if(operator == '-'){
@@ -35,9 +34,6 @@ public class Calculator {
         }else{ // /
             System.out.println(num1 / num2);
         }
-
-
-
 
 
 
