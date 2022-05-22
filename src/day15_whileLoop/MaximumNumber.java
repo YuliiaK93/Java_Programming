@@ -8,7 +8,7 @@ public class MaximumNumber {
 
         Scanner input = new Scanner(System.in);
 
-        int max = -2147483648; //60
+        int max = -2147483648; //Any integer number that user enter will ALWAYS be greater than -2147483648
 
         for(int i = 0; i < 5; i++ ) { //i: 0, 1, 2, 3, 4
 
