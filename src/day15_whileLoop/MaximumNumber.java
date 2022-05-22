@@ -10,7 +10,7 @@ public class MaximumNumber {
 
         int max = -2147483648; //60
 
-        for(int i = 0; i < 5; i++ ) {
+        for(int i = 0; i < 5; i++ ) { //i: 0, 1, 2, 3, 4
 
             System.out.println("Enter a number:");
             int num = input.nextInt();
