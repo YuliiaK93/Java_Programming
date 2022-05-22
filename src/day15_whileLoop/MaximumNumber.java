@@ -23,6 +23,7 @@ public class MaximumNumber {
 
         System.out.println("Maximum number is: " + max);
 
+        input.close();
 
 
     }

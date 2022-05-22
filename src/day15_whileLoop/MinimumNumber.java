@@ -26,6 +26,8 @@ public class MinimumNumber {
         System.out.println("Minimum number is: " + min);
 
 
+        input.close();
+
     }
 
 }
