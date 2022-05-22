@@ -19,7 +19,6 @@ public class MinimumNumber {
                 min = num; // then user entered number should be the minimum number
             }
 
-
         }
 
 
