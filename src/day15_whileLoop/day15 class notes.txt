@@ -4,8 +4,7 @@ Topics: Branching Statements
 					break
 					continue
 
-		WhileLoop
-		Do-While Loop
+		While Loop Intro
 
 package name: day15_whileLoop
 
@@ -22,3 +21,9 @@ Warmup tasks:
 					output:
 						abc
 
+
+
+Branching (Jump) statements:
+		1. Return
+		2. Break
+		3. Continue
