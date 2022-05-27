@@ -1,12 +1,11 @@
 Java Programming Day16
 
 Topics: Do-While Loop
-		While vs Do-While
-		Nested Loop
+	While vs Do-While
+	Nested Loop
 
 
 package name: day16_nestedLoop
-
 
 Warmup tasks:
 	1. Create a class named CydeoLogIn. you are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:
@@ -29,7 +28,6 @@ Warmup tasks:
 
 		     output:
 		     	5
-
 
 	3.  Write a program that can return the frequency of the word java from a sentence
 		    Ex:
