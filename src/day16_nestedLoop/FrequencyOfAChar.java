@@ -4,7 +4,7 @@ public class FrequencyOfAChar {
 
     public static void main(String[] args) {
 
-        String str = "acbacb";
+        String str = "acbacbc";
         char ch = 'c';
 
         int count = 0;
