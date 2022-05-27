@@ -1,0 +1,32 @@
+Java Programming Day16
+
+Topics: Do-While Loop
+		While vs Do-While
+		Nested Loop
+
+
+package name: day16_nestedLoop
+
+
+Warmup tasks:
+	1. Create a class named CydeoLogIn. you are writing a code for the log-in function of the Cydeo Application, assume that your credentials are:
+                    username: Cydeo
+                    password: Cydeo123
+
+        Ask the user to enter their credentials. 
+                If credentials are matched, your program should print "Logged in." 
+                
+                If the credentials are not matched, the program should allow
+                the user to have three attempts to enter correct credentials
+
+                if all three attempts are failed, then print "Your account is lucked."
+
+    2.  Write a program that can return the frequency of the word java from a sentence
+	    Ex:
+	        sentence = "java JAVA jAvA JAva"
+
+	    output:
+	        4
+
+
+
