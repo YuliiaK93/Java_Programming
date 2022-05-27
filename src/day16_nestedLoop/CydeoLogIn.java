@@ -43,7 +43,7 @@ public class CydeoLogIn {
 
             }
 
-            if( ! (u.equals("Cydeo") && p.equals("WoodenSpoon") ) ){
+            if( ! (u.equals("Cydeo") && p.equals("WoodenSpoon") ) ){ // after all three attempts, if the username & password are still incorrect
                 System.err.println("Your account now is locked, please contact with the support team");
             }
 
@@ -55,6 +55,21 @@ public class CydeoLogIn {
 
 
     }
+
+
+
+    public static void cydeoLogIn(String username, String password){
+        if(username.equals("Cydeo") && password.equals("WoodenSpoon")){
+            System.out.println("Logged in");
+        }else {
+            System.out.println("Invalid credentials");
+        }
+
+    }
+
+
+
+
 
 
 }
