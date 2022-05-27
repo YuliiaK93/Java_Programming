@@ -18,8 +18,18 @@ public class CydeoLogIn {
             System.out.println("Logged in");
         }else{ // otherwise
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < 3; i++) { //i : 0, 1, 2
+                /*
+                if(i != 2) {
+                    System.err.println("Incorrect username or password, please re-enter");
+                }else{
+                    System.err.println("This is your last chance, Please re-enter your username and password");
+                }
+
+                 */
+
                 System.err.println("Incorrect username or password, please re-enter");
+
                 System.out.println("Enter your username:");
                 u = input.next();
 
