@@ -26,6 +26,15 @@ public class LoopPractices {
             j++;
         }
 
+
+        /*
+        int j = 0;
+        while(j < 5){
+            System.out.println("Hello "+j);
+            j++;
+        }
+        */
+
         System.out.println("---------------------------------");
 
         int k= 0;
