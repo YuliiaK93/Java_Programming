@@ -4,7 +4,6 @@ Topics: Custom Class Intro
 		- Class vs Object
 		- Instance Variables & Methods
 		- toString()
-		- this keyword
 
 package name: day17_customClass
 
