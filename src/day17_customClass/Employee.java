@@ -18,10 +18,10 @@ public class Employee {
         this.salary = salary;
         this.id = id;
 
-    }
+    } // sets all the attributes of the Employee object at once
 
 
-    public String toString() {
+    public String toString() { // to avoid getting hash code when we print employee object
         return "Employee{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
