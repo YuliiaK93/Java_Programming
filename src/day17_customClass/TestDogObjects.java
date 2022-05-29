@@ -24,11 +24,12 @@ public class TestDogObjects {
 
 
          Dog dog3 = new Dog();
-
+         dog3.setInfo("Loki", "Chow chow", 'M', 3, "Medium", "Black");
 
 
         System.out.println(dog1);
         System.out.println(dog2);
+        System.out.println(dog3);
 
 
 
