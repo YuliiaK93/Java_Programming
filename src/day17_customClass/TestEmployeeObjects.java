@@ -14,6 +14,12 @@ public class TestEmployeeObjects {
         employee3.setInfo("Abidullah", 30, 'M', "Front-end Developer", 99000, "C14");
 
 
+        employee2.age = 39;
+
+        employee3.name = "Lucy";
+        employee3.gender = 'F';
+
+
         System.out.println(employee1);
         System.out.println(employee2);
         System.out.println(employee3);
