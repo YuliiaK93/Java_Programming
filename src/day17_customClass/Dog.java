@@ -17,7 +17,7 @@ public class Dog {
         this.age = age;
         this.size = size;
         this.color = color;
-    }
+    } // this method can help us to set all the information of the dog at once
 
 
     public void eat(){
