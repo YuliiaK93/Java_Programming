@@ -1,10 +1,10 @@
 Java Programming Day17
 
 Topics: Custom Class Intro
-				- Class vs Object
-				- Instance Variables & Methods
-				- toString()
-				- this keyword
+		- Class vs Object
+		- Instance Variables & Methods
+		- toString()
+		- this keyword
 
 package name: day17_customClass
 
