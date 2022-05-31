@@ -1,7 +1,7 @@
 Java Programming Day18
 
 Topics: Java Memory Allocation
-		Garbage Collection
+	Garbage Collection
 
 package name: day18_garbageCollection
 
@@ -16,12 +16,12 @@ Warmup tasks:
 				calcCost(): returns the total cost of the pizza
 				toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
             
-        Pizza cost is determined by:
-                        S: $10 + $2 per topping
-                        M: $12 + $2 per topping
-                        L: $14 + $2 per topping
+		Pizza cost is determined by:
+		                S: $10 + $2 per topping
+		                M: $12 + $2 per topping
+		                L: $14 + $2 per topping
 
-	1. Create a custom class named BankAccount:
+	2. Create a custom class named BankAccount:
 			Attributes:
 				1. accountHolder
 				2. accountNumber
