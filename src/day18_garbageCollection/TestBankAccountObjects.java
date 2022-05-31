@@ -23,10 +23,37 @@ public class TestBankAccountObjects {
         obj1.deposit(-1000);
 
         obj1.checkBalance();
-        
+
         obj1.withdraw(5000);
 
         obj1.checkBalance();
+
+
+        System.out.println("-------------------------------------------");
+
+        BankAccount account1 = new BankAccount();
+
+        BankAccount account2 = new BankAccount();
+
+        account1.setInfo("Sebastian", 789456123);
+
+        account2.setInfo("Umran", 456789123);
+
+
+        account1.deposit(5000);
+        account2.deposit(10000);
+
+        System.out.println(account1);
+        System.out.println(account2);
+
+
+        account1.withdraw(1000);
+
+
+        System.out.println(account1);
+        System.out.println(account2);
+
+
 
     }
 
