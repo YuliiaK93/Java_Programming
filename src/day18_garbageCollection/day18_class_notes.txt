@@ -14,7 +14,7 @@ Warmup tasks:
 
 			Actions:
 				calcCost(): returns the total cost of the pizza
-				toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
+				toString(): returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
             
 		Pizza cost is determined by:
 		                S: $10 + $2 per topping
@@ -29,7 +29,19 @@ Warmup tasks:
 
 			Actions:
 				1. setInfo(): sets the accountHolder and accountNumber attributes
-            	2. toString(): displays the full account info
-                3. checkBalance():displays the available balance
-                4. deposit(amount): increases the balance by the specified amount
-        	5. withdraw(amount): decreases the balance by the specified amount
+		            	2. toString(): displays the full account info
+		                3. checkBalance():displays the available balance
+		                4. deposit(amount): increases the balance by the specified amount
+		        	5. withdraw(amount): decreases the balance by the specified amount
+
+
+Java Lab5: String, loops
+Java Lab6: Custom Methods
+Java Lab7: Custom CLass & Garbage Collection
+
+
+
+
+
+
+
