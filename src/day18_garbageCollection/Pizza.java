@@ -5,6 +5,7 @@ public class Pizza {
     public char size;
     public int numberOfCheeseTopping, numberOfPepperoniTopping;
 
+    // calculates the total price of the pizza, returns it as double
     public double calcCost(){
         double totalPrice = 0;
 
@@ -33,6 +34,7 @@ public class Pizza {
     }
 
 
+    /*
     public String toString() {
         return "Pizza{" +
                 "size=" + size +
@@ -41,6 +43,7 @@ public class Pizza {
                 ", total price=" + calcCost() +
                 '}';
     }
+*/
 
 
 }
