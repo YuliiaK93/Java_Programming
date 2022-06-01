@@ -42,6 +42,37 @@ Java Lab7: Custom CLass & Garbage Collection
 
 
 
+Deafult values:
+	byte, short, int, long ====> 0
+	float, double =======> 0.0
+	boolean   ======> false
+
+	for all non primitives ===> null
+
+
+
+
+Class & Object part1:
+	1. Class vs Object
+	2. Instance variables Methods
+	3. Memory allocation
+	4. Garbage Collection
+
+
+Topics:
+	Array
+	Wrapper Classes
+	ArrayLIst
+	LocalDate & Time
+
+
+
+Class & Object part2:
+	Constructors
+	Statics
+	static vs Instance
+	Initializer Blocks
+
 
 
 
