@@ -7,3 +7,45 @@ package name: day19_array
 
 
 
+Data Structure: to use the data efficeintly. allows us to store the data in an organized manner
+
+			1. Array
+			2. Collection
+			3. Map
+
+
+regular variable:
+		
+		DataType  variableName;
+		int        age;
+		char       gender;
+		String     name;
+		....
+
+Array:
+		DataType[]  variableName;
+
+
+
+Arrays Utility class:  Arrays
+		
+		presented in "java.util"
+
+
+		import java.util.Arrays;
+
+
+
+Task:
+	1. Write a program that can find the maximum number from an array
+
+	2. Write a program that can find the minimum number from an array
+
+
+come back at 2:15pm
+
+
+
+
+
+
