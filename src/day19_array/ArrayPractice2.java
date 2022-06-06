@@ -26,9 +26,17 @@ public class ArrayPractice2 {
 
         int[] arr2 = new int[100]; //index: 0 ~ 99
 
+        /*
         for (int i = 0 , j = 100; i < arr2.length; i++, j--) {
             arr2[i] = j;
         }
+*/
+
+        for (int i = 0 ; i < arr2.length; i++) {
+            arr2[i] = 100 - i;
+        }
+
+
 
         System.out.println("arr2 = " + Arrays.toString(arr2) );
 
