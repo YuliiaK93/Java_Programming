@@ -17,6 +17,9 @@ public class ArrayObjects {
         System.out.println(Arrays.toString(arr2) );
         System.out.println(Arrays.toString(arr3) );
 
+
+
+
         System.out.println("----------------------------------------------------");
 
         String[] a1 = {"Umran", "Mehmet"};
