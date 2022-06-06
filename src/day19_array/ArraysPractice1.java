@@ -28,6 +28,11 @@ public class ArraysPractice1 {
         }
 
 
+        System.out.println("------------------------------------");
+
+        for (int i = myGroup.length - 1; i >= 0; i--) {
+            
+        }
 
 
     }
