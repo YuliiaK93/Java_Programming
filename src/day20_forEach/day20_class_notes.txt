@@ -32,3 +32,14 @@ warmup tasks:
 
 
 
+
+String Methods:
+	toCharArray(): returns char array
+	split(CharSequence): returns String array
+
+
+
+
+
+
+
