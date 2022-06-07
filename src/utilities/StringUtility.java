@@ -14,7 +14,6 @@ public class StringUtility {
     }
 
 
-    // return the frequency of the given word from the given sentence
     public static int frequency(String sentence, String word){
 
         int count = 0;
@@ -28,7 +27,7 @@ public class StringUtility {
     }
 
 
-    //                          "aabacde",    'a'
+
     public static int frequency(String str, char ch){
         int count =0;
 
@@ -41,7 +40,6 @@ public class StringUtility {
         return count;
 
     }
-
 
 
 
