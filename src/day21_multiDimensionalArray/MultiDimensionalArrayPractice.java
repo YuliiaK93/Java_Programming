@@ -37,6 +37,22 @@ public class MultiDimensionalArrayPractice {
         }
 
 
+        System.out.println("-----------------------------------------------------------");
+
+        for (int i = groups.length - 1; i >= 0; i--) {
+
+            String[] eachGroup = groups[i];
+            System.out.println(Arrays.toString(eachGroup));
+
+            for (String eachStudent : eachGroup) {
+                System.out.println(eachStudent);
+            }
+
+
+        }
+
+
+
 
     }
 
