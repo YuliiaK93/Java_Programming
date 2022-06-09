@@ -45,10 +45,12 @@ Array: special variable, size is fixed
             int[] scores = {10, 20, 30, 40};
 
 
+            toString() ==> for single dimensional arrays ONLY
 
     Multi Dimensional Array: [][] ..., used for containing multiple arrays
 
 
+        deepToString() ==> for multi-dimensional dimensional arrays ONLY
 
 
 
