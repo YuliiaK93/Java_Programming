@@ -156,6 +156,11 @@ public class ArraysUtility {
 
 
 
+    /*
+    public static boolean contains(int[] array, int element){
+
+    }
+    */
 
 
 
