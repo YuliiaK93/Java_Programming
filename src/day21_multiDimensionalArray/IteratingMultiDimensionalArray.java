@@ -36,8 +36,28 @@ public class IteratingMultiDimensionalArray {
                 System.out.println(eachElement);
             }
 
-
         }
+
+
+        System.out.println("----------------------------------------------------------");
+
+
+        for (int i = arr2D.length - 1; i >= 0; i--) {
+            for (int j = arr2D[i].length - 1; j >= 0; j--) {
+                System.out.println(arr2D[i][j]);
+            }
+        }
+
+
+        System.out.println("----------------------------------------------------------");
+
+
+        for (int[] each1DArray : arr2D) {
+            for (int eachElement : each1DArray) {
+                System.out.println(eachElement);
+            }
+        }
+
 
 
 
