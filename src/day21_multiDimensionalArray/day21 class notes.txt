@@ -31,3 +31,29 @@ Warmup tasks:
     
 
 
+regular variable:
+    
+    int  age = 10;
+    int score = 75;
+    String name = "Java";
+
+
+Array: special variable, size is fixed
+
+    Single Dimensional Array:[] , used for containing multiple elements
+
+            int[] scores = {10, 20, 30, 40};
+
+
+
+    Multi Dimensional Array: [][] ..., used for containing multiple arrays
+
+
+
+
+
+
+
+
+
+
