@@ -28,6 +28,28 @@ Data Structure:
 
 
 
+Wrapper Class methods:
+	
+		parse method: returns primitive type, converts String to primitive values
+
+		valueOf method: returns wrapepr class objects, converts String to wrapper class values
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
