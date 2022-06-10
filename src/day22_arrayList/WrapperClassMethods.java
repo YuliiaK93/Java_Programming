@@ -40,6 +40,48 @@ public class WrapperClassMethods {
         System.out.println(r1);
         System.out.println(r2);
 
+        System.out.println("------------------------------------------");
+
+        char ch = '$';
+
+        boolean isDigit =Character.isDigit(ch);
+        
+        boolean isLetter = Character.isLetter(ch);
+
+        boolean isLowerCaseLetter = Character.isLowerCase(ch);
+
+        boolean isUpperCaseLetter = Character.isUpperCase(ch);
+
+        boolean isSpecialChar = !Character.isLetterOrDigit(ch); // special character
+
+        System.out.println("isDigit = " + isDigit);
+
+        System.out.println("isLetter = " + isLetter);
+
+        System.out.println("isLowerCaseLetter = " + isLowerCaseLetter);
+
+        System.out.println("isUpperCaseLetter = " + isUpperCaseLetter);
+
+        System.out.println("isSpecialChar = " + isSpecialChar);
+
+
+        System.out.println("------------------------------------------------");
+
+        String string = "a1b2c3d4e5";
+
+        int sum = 0;
+
+        for (char each : string.toCharArray()) {
+
+            if(Character.isDigit(each)){
+               sum += Integer.parseInt(""+each);
+            }
+
+        }
+
+
+        System.out.println("sum = " + sum);
+
 
 
 
