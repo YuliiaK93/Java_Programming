@@ -20,6 +20,14 @@ warmup tasks
 
 
 
+Data Structure:
+		
+		Array: size is fixed, supports both primitives & non-primitives, can be multi dimensional
+		Collection: size is dynamic, ONLY supports non-primitives
+		Map: size is dynamic, ONLY supports non-primitives
+
+
+
 
 
 
