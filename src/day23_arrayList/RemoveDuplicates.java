@@ -14,6 +14,9 @@ public class RemoveDuplicates {
         names.add("Ali");
         names.add("Sumeye");
 
+        // [Vasyl, Vasyl, Sumeye, Sumeye, Ali, Sumeye]
+
+        System.out.println(names);
 
         ArrayList<String> nonDup = new ArrayList<>();
 
@@ -27,9 +30,12 @@ public class RemoveDuplicates {
 
         }
 
+        // [Vasyl, Sumeye, Ali]
+
         names = nonDup;
 
         System.out.println(names);
+        System.out.println(nonDup);
 
 
 
