@@ -33,6 +33,7 @@ public class AverageNumber {
 
 }
 
+
 /*
 2. Write a program that can find the average number from an arrayList of integers
  */

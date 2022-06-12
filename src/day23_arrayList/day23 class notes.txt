@@ -20,4 +20,3 @@ Warmup Tasks:
 
 			output:
 				2
-
