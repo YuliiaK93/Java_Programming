@@ -20,3 +20,7 @@ Warmup Tasks:
 
 			output:
 				2
+
+
+Arrays Utility:
+	asList(): returns a List, that contains the specified elements/array
