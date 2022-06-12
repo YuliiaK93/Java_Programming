@@ -81,6 +81,14 @@ public class ArrayListMethods {
         System.out.println( names.lastIndexOf("Sumeye") );
 
 
+        boolean hasMuhtar = names.contains("Muhtar"); // false
+        boolean hasAli = names.contains("Ali"); // true
+
+        System.out.println("hasMuhtar = " + hasMuhtar);
+        System.out.println("hasAli = " + hasAli);
+
+
+
 
 
 
