@@ -79,6 +79,29 @@ public class BulkOperations {
 
         System.out.println(list);
 
+        System.out.println("-----------------------------------------");
+
+        ArrayList<String> developers = new ArrayList<>();
+        developers.addAll( Arrays.asList(  "Alena", "Muhtar", "Gadir", "Ali", "Khashayar", "Madiyar", "Muhtar", "Muhtar" , "Alena")  );
+
+        developers.retainAll(  Arrays.asList("Alena", "Khashayar", "Muhtar") );
+
+        System.out.println(developers);
+
+        System.out.println("-----------------------------------------");
+
+        ArrayList<String> groceriesList = new ArrayList<>();
+        groceriesList.addAll(
+                Arrays.asList("Eggs", "Potato",  "Milk", "Tomato", "Rice", "Orange", "Strawberry", "Blueberry", "Paper towels")
+        );
+
+     //   groceriesList.retainAll( Arrays.asList("Eggs", "Potato",  "Milk", "Tomato") );
+          groceriesList.removeAll( Arrays.asList("Rice", "Orange", "Strawberry", "Blueberry", "Paper towels") );
+
+        System.out.println(groceriesList);
+
+
+
 
 
 
