@@ -20,7 +20,6 @@ public class ArrayListPractice {
         employees.get(4).setInfo("Jimmy", 54, 'M', "Data Analyst", 105000, "A05");
 
 
-
         for (Employee each : employees) {
             System.out.println(each.name + " : " + each.jobTitle);
         }
@@ -53,6 +52,27 @@ public class ArrayListPractice {
         System.out.println("min = " + min);
 
 
+        System.out.println("-------------------------------------------------------");
+
+        ArrayList<Employee> femaleEmployees = new ArrayList<>();
+        ArrayList<Employee> maleEmployees = new ArrayList<>();
+
+        for (Employee employee : employees) {
+            if(employee.gender == 'M'){  // if the employee is male
+                maleEmployees.add(employee);
+            }else{
+                femaleEmployees.add(employee);
+            }
+
+        }
+
+        System.out.println("Total number of female employees: " + femaleEmployees.size());
+        System.out.println("Total number of male employees: " + maleEmployees.size());
+
+
+
+
+
     }
 
 
@@ -80,5 +100,5 @@ public class ArrayListPractice {
 	        1.3 Write a program that can display the maximum and minimum salary
 
 	        1.4 Create two arraylists named femaleEmployees and maleEmployees, write a program that
-	         can add all the female employees and male emloyees to the femaleEmployees and maleEmployees arraylists
+	         can add all the female employees and male employees to the femaleEmployees and maleEmployees arraylists
  */
