@@ -14,7 +14,7 @@ public class FrequencyOfCharacters {
 
         for (String each : str.split("")) {
 
-            int frequency = Collections.frequency(  Arrays.asList(str.split("")) , each );
+            int frequency = Collections.frequency(  Arrays.asList( str.split("") )   , each );
 
             if(!result.contains(each)){
                 result += each + frequency;
