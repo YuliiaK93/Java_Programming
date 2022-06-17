@@ -6,7 +6,7 @@ public class Employee {
     public int age;
     public char gender;
     public String jobTitle;
-    public  double salary;
+    public double salary;
     public String id;
 
 
@@ -33,8 +33,8 @@ public class Employee {
     }
 
 
-    public void work(){
-        System.out.println(name +" is working");
+    public void work() {
+        System.out.println(name + " is working");
     }
 
 
