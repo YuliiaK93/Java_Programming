@@ -14,6 +14,10 @@ public class LocalDateTimeIntro {
 
         System.out.println(ends);
 
+        System.out.println(starts.getDayOfWeek());
+
+        System.out.println(starts.getHour());
+
 
     }
 
