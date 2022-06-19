@@ -2,7 +2,7 @@ package day26_statics.studentTask;
 
 import java.util.ArrayList;
 
-public class StudentsGroup {
+public class StudentsGroup { // StudentsGroup HAS A Student
 
     public String groupName;
     public int groupId;
