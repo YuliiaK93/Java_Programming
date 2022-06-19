@@ -10,6 +10,15 @@ public class TestObjects {
         Student student4 = new Student("Mehmet", 25, 'M', "D43");
         Student student5 = new Student("Sebastian", 23, 'M', "E27");
 
+        StudentsGroup group1 = new StudentsGroup("Java Turtles",  1);
+        group1.addStudent(student1);
+        group1.addStudent(student2);
+        group1.addStudent(student3);
+        group1.addStudent(student4);
+        group1.addStudent(student1);
+
+        System.out.println(group1);
+
 
     }
 
@@ -18,6 +27,6 @@ public class TestObjects {
 /*
 3. Create a class named TestObjects
 	            3.1 Create 5 Student objects
-	            3.2 Create a StudentGroup object
+	            3.2 Create a StudentsGroup object
 	            3.3 Add all the student objets to the StudentsGroup object' students list
  */
