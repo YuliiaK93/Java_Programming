@@ -35,6 +35,15 @@ public class Car {
     }
 
 
+    public String toString() {
+        return "Car{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
 
 }
