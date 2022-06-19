@@ -95,6 +95,8 @@ Class Name: Employee
 
 
 
+next session:
+	instance vs static
 
 
 
