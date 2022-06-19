@@ -5,6 +5,7 @@ public class TestObjects {
     public static void main(String[] args) {
 
         Student student1 = new Student("Yusuf", 21, 'M', "A16");
+
         Student student2 = new Student("Glenio", 24, 'M', "B34");
         Student student3 = new Student("Sumeyye", 22, 'F', "C56");
         Student student4 = new Student("Mehmet", 25, 'M', "D43");
@@ -40,7 +41,6 @@ public class TestObjects {
         StudentsGroup group3 = new StudentsGroup("Java Turtles",  1);
 
         StudentsGroup group4 = new StudentsGroup("Java Turtles",  1);
-
 
         StudentsGroup[] groups = {group1, group2, group3, group4};
 
