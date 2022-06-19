@@ -22,8 +22,7 @@ public class StudentsGroup { // StudentsGroup HAS A Student
 
     public void addStudent(Student[] students){
         this.students.addAll(Arrays.asList(students));
-    }
-
+    } // Takes one array of students, and adds the array of students to the arraylist of students
 
     public void addStudent(String name, int age, char gender, String id){
       //  Student student = new Student(name, age, gender, id);
