@@ -14,6 +14,7 @@ public class StudentsGroup {
        // students = new ArrayList<>(); // size : 0
     }
 
+
     public void addStudent(Student student){
         students.add(student);
     }// Takes one student object, and adds it to the arraylist of students
@@ -29,6 +30,14 @@ public class StudentsGroup {
         students.removeIf( p -> p.id.equals(id) );
     } // Takes the id and then removes the student object with the specified id from arraylist of students
 
+
+    public String toString() {
+        return "StudentsGroup{" +
+                "groupName='" + groupName + '\'' +
+                ", groupId=" + groupId +
+                ", number of students=" + students.size() +
+                '}';
+    }
 
 
 }
