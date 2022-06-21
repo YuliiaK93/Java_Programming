@@ -25,9 +25,21 @@ public class Test {
 
         System.out.println("---------------------------");
 
-        System.out.println(AccessModifiers.publicDate);
+        System.out.println(AccessModifiers.publicData); // public is always accessible in different packages
+
+      //  System.out.println(AccessModifiers.protectedData); // protected is NOT always accessible in different packages
+
+    //   System.out.println(AccessModifiers.defaultData); // default is not be accessible in different packages
+
+    //    System.out.println(AccessModifiers.privateData); // private is not accessible in different packages
+
+        new AccessModifiers();
 
 
+        AccessModifiers.publicMethod();
+    //    AccessModifiers.protectedMethod();
+    //    AccessModifiers.defaultMethod();
+    //    AccessModifiers.privateMethod();
 
 
 
