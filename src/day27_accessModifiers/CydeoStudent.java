@@ -7,7 +7,7 @@ public class CydeoStudent {
     public char gender;
 
 
-    public static String schoolName = "Cydeo";
+    public static String schoolName;
     public static String secretCode;
 
     public CydeoStudent(String name, int age, char gender) {
@@ -19,7 +19,7 @@ public class CydeoStudent {
     }
 
     static{
-       // schoolName = "Cydeo School";
+        schoolName = "Cydeo School";
         secretCode = "Wooden Spoon";
     }
 
@@ -30,4 +30,7 @@ public class CydeoStudent {
                 ", gender=" + gender +
                 '}';
     }
+
+
+
 }
