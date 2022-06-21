@@ -12,13 +12,13 @@ public class TestCydeoStudentObjects {
         System.out.println(student1);
         System.out.println(student2);
 
-
+/*
         System.out.println(student1.schoolName);
         System.out.println(student2.schoolName);
 
         System.out.println(student1.secretCode);
         System.out.println(student2.secretCode);
-
+*/
 
     }
 
