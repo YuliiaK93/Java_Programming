@@ -10,6 +10,14 @@ public class Test {
         System.out.println(StaticInitializationBlock.b);
         System.out.println(StaticInitializationBlock.c);
 
+
+        System.out.println("---------------------------------------------");
+
+
+        System.out.println(AccessModifiers.publicDate);
+
+
+
     }
 
 }
