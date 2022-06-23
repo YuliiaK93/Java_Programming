@@ -39,6 +39,8 @@ Custom Class:
 
 
 
+static vs instance:
+		one copy vs multiple copies
 
 
 
