@@ -31,3 +31,18 @@ Warmup tasks:
 
 
 
+Custom Class:
+	1. Class & Object
+	2. Instance Variables & instance methods
+	3. Statics (Static Variables, Static Methods, static Block)
+	4. Constructor
+
+
+
+
+
+
+
+
+
+
