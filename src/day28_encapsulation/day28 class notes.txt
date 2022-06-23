@@ -38,9 +38,15 @@ Custom Class:
 	4. Constructor
 
 
-
 static vs instance:
 		one copy vs multiple copies
+
+
+Why java is not pure object oreinted programming:
+		1. primitives
+		2. static
+		3. enumerations
+
 
 
 
