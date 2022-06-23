@@ -41,6 +41,21 @@ public class Person {
     }
 
 
+    static{
+        planet = "Earth";
+        isHuman = true;
+        hasNose = true;
+        numberOfWings = 0;
+        numberOfHeads = 1;
+
+       // name = "Josh";
+    }
+
+
+
+
+
+
 
 
 }
