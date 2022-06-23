@@ -31,8 +31,8 @@ public class Person {
     }
 
     public Person(String name, int age, char gender) {  // Allows us to create Person object just by setting the name , age and gender of the person
-       this(name, age);
-       this.gender = gender;
+        this(name, age);
+        this.gender = gender;
     }
 
     public Person(String name, int age, char gender, String language) { // Allows us to create Person object just by setting the name, age, gender and language of the person
@@ -41,20 +41,39 @@ public class Person {
     }
 
 
-    static{
+    static {
         planet = "Earth";
         isHuman = true;
         hasNose = true;
         numberOfWings = 0;
         numberOfHeads = 1;
 
-       // name = "Josh";
+        // name = "Josh";
     }
 
 
+    public static void printPlanetName() {
+        System.out.println("Planet name is: " + planet);
+    }
 
 
+    public void eat(String food) {
+        System.out.println(name + " is eating " + food);
+    }
 
+    public void drink(String drink) {
+        System.out.println(name + " is drinking " + drink);
+    }
+
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", language='" + language + '\'' +
+                ", planet='" + planet + '\'' +
+                '}';
+    }
 
 
 
