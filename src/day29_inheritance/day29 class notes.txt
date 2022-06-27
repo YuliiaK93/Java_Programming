@@ -36,3 +36,49 @@ Encapsulation: hiding the data by giving private access modifiers
 							 passes a parameter
 
 
+
+Custom Classes:
+	0. Animal
+
+			attributes:
+					name, breed, gender, size, color, age
+
+			methods:
+				setInfo(), eat(), sleep(), drink(), toString()
+
+	
+	1. Dog
+			attributes:
+					
+
+			methods:
+					 bark()
+
+	2. Cat
+			attributes:
+					
+
+			methods: 
+				meow(), scratch()
+
+	3. Tiger
+
+			attributes:
+					
+
+			methods: 
+				hunt()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
