@@ -1,6 +1,6 @@
 package day29_inheritance.animalTask;
 
-public class Cat extends Animal {
+public class Cat extends Animal { // Cat Is An animal
 
     public void meow(){
         System.out.println(name +" is meowing");

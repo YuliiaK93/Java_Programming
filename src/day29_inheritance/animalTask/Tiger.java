@@ -1,6 +1,7 @@
 package day29_inheritance.animalTask;
 
-public class Tiger extends Animal{
+public class Tiger extends Animal{ // Tiger Is An Animal
+
 
     public void hunt(){
         System.out.println(name+" is hunting");
