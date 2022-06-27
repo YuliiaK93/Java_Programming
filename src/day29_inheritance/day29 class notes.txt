@@ -71,6 +71,10 @@ Custom Classes:
 
 
 
+Object Class:  parent of all the classes ( implicitly inherited)
+
+
+
 
 
 
