@@ -1,11 +1,11 @@
-Java Programming Day29
+package day29_inheritance.encapsulation;
 
-Topics: OOP Inheritance
+public class Student {
 
-package name: day29_inheritance
+}
 
-Warmup tasks:
-    1. Create a class named Student:
+/*
+1. Create a class named Student:
             private variables:
                 name, age, gender, grade, schoolName
 
@@ -22,17 +22,4 @@ Warmup tasks:
             Methods:
                 study()
                 toString()
-
-
-             
-Encapsulation: hiding the data by giving private access modifiers
-		
-		getter (READ ONLY): public instance methods
-							return type has to match with the data type of the instance variable
-							passes no parameters
-
-		setter (WRITE ONLY): public instance methods
-							 return type is void
-							 passes a parameter
-
-
+ */
