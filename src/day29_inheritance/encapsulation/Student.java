@@ -7,6 +7,15 @@ public class Student {
     private char gender, grade;
     private String schoolName;
 
+    public Student(String name, int age, char gender, char grade, String schoolName) {
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setGrade(grade);
+        setSchoolName(schoolName);
+    }
+
+
     public String getName(){ // READ ONLY
         /*
         if(name == null){
@@ -53,7 +62,14 @@ public class Student {
     }
 
     public void setGender(char gender) {
-        this.gender = gender;
+
+        if(gender == 'M' || gender == 'F'){
+            this.gender = gender;
+        }else{
+            System.err.println("Invalid gender: "+gender);
+            System.exit(1);
+        }
+
     }
 
     public char getGrade() {
@@ -61,7 +77,16 @@ public class Student {
     }
 
     public void setGrade(char grade) {
-        this.grade = grade;
+
+        boolean isValid = grade == 'A' || grade == 'B' || grade == 'C' || grade == 'D' || grade == 'F';
+
+        if(isValid) {
+            this.grade = grade;
+        }else{
+            System.err.println("Invalid grade: "+grade);
+            System.exit(1);
+        }
+
     }
 
     public String getSchoolName() {
@@ -72,6 +97,19 @@ public class Student {
         this.schoolName = schoolName;
     }
 
+    public void study(){
+        System.out.println(name +" is studying at "+schoolName);
+    }
+
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", grade=" + grade +
+                ", schoolName='" + schoolName + '\'' +
+                '}';
+    }
 
 
 
