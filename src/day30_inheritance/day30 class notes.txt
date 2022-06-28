@@ -3,7 +3,6 @@ Java Programming Day30
 Topics: OOP Inheritance
 			Constructor
 			Types of Inheritance
-			Field Hiding
 
 packag name: day30_inheritance
 
