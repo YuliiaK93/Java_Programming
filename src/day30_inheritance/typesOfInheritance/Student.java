@@ -1,5 +1,6 @@
 package day30_inheritance.typesOfInheritance;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Student extends Person{
@@ -7,7 +8,7 @@ public class Student extends Person{
     private char grade;
     private String studentId;
 
-    public Student(String name, char gender, LocalDateTime DOB, char grade, String studentId) {
+    public Student(String name, char gender, LocalDate DOB, char grade, String studentId) {
         super(name, gender, DOB);
         setGrade(grade);
         setStudentId(studentId);
