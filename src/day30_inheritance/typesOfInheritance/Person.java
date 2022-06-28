@@ -55,6 +55,14 @@ public class Person {
         this.DOB = DOB;
     }
 
+    public void eat(String food){
+        System.out.println(name +" is eating "+ food);
+    }
+
+    public void drink(String drink){
+        System.out.println(name+" si drinking "+drink);
+    }
+
 
     public String toString() {
         return getClass().getSimpleName()+"{" +
@@ -64,5 +72,9 @@ public class Person {
                 ", DOB=" + DOB +
                 '}';
     }
+
+
+
+
 }
 
