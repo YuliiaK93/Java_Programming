@@ -7,6 +7,14 @@ public class Phone {
     private String brand, model, size, color;
     private double price;
 
+    public Phone(String brand, String model, String size, String color, double price) {
+      setBrand(brand);
+      setModel(model);
+      setSize(size);
+      setColor(color);
+      setPrice(price);
+    }
+
     public String getBrand() {
         return brand;
     }
@@ -56,6 +64,17 @@ public class Phone {
             System.exit(1);
         }
 
+    }
+
+
+    public String toString() {
+        return  getClass().getSimpleName() + "{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                '}';
     }
 
 
