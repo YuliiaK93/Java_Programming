@@ -2,7 +2,7 @@ package day30_inheritance.phoneTask;
 
 import java.util.Arrays;
 
-public class Phone {
+public class Phone{
 
     private String brand, model, size, color;
     private double price;
