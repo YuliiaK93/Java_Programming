@@ -25,7 +25,7 @@ Warmup tasks:
 					text(long phoneNumber)
 					toString()
 
-	2. Create the following subclasses of Phone:
+	2. Create the following sub classes of Phone:
 
 			2.1 Iphone:
 					Extra methods:
