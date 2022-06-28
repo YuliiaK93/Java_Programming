@@ -60,6 +60,10 @@ OOP Inheritance: to build IS A relationship between the classes (parent/child,  
 					easy to maintain
 
 
+				One class can ONLY extend one class
+				One class can be extended by MULTIPLE classes
+
+
 
 
 

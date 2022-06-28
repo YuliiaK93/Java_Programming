@@ -2,7 +2,7 @@ package day30_inheritance.typesOfInheritance;
 
 import java.time.LocalDateTime;
 
-public class Employee  extends Person{
+public class Employee extends Person {
 
     private String jobTitle;
     private String employeeId;
