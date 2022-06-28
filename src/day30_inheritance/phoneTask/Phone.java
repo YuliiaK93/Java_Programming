@@ -66,6 +66,13 @@ public class Phone {
 
     }
 
+    public void call(long phoneNumber){
+        System.out.println(getModel()+" is calling "+phoneNumber);
+    }
+
+    public void text(long phoneNumber){
+        System.out.println(getModel()+" is texting to "+phoneNumber);
+    }
 
     public String toString() {
         return  getClass().getSimpleName() + "{" +
