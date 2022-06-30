@@ -2,7 +2,7 @@ Java Programming Day31
 
 Topics: OOP Inheritance:
 			Protected Access Modifier
-			Method Overriding Intro
+			Method Overriding
 
 Package name: day31_inheritance
 
@@ -31,7 +31,7 @@ Warmup Tasks:
 	4. Create a sub class of Vehicle named Boat
 
 			Extra methods:
-				swim()
+				sail()
 
 	5. Create a sub class of Vehicle named AirPlane
 
