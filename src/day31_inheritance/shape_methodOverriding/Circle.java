@@ -33,6 +33,14 @@ public class Circle extends Shape {
         // code fragments that can draw a circle
     }
 
+    public String toString() {
+        return getClass().getSimpleName()+"{" +
+                "name='" + getName() + '\'' +
+                ", radius='" + radius + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 
 
 

@@ -10,6 +10,13 @@ public class TestShapeObjects {
 
         square.draw();
 
+        System.out.println("----------------------------");
+
+        Circle circle = new Circle(3.5);
+
+        System.out.println(circle);
+
+
     }
 
 }
