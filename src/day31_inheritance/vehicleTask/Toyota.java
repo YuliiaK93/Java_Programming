@@ -6,4 +6,6 @@ public class Toyota extends Car{
         super(brand, model, color, year, price);
     }
 
+
+
 }
