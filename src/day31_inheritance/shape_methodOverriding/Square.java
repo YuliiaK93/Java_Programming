@@ -36,4 +36,6 @@ public class Square extends Shape {
         System.out.println("\t* * * * * *");
     }
 
+
+
 }
