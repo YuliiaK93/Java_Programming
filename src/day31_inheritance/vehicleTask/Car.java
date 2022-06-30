@@ -1,5 +1,7 @@
 package day31_inheritance.vehicleTask;
 
+import day29_inheritance.animalTask.Animal;
+
 public class Car extends Vehicle {
 
     public Car(String brand, String model, String color, int year, double price) {
