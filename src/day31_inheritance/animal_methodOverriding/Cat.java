@@ -12,9 +12,13 @@ public class Cat extends Animal {
         System.out.println("Cat "+getName() + " is eating cat food");
     }
 
-
     public void sleep() {
         System.out.println("Cat "+getName() + " sleeps 12 hours ina day");
+    }
+
+
+    public void scratch(){
+        System.out.println("Cat "+getName() + " is scratching");
     }
 
 
