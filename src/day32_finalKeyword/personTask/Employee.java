@@ -35,5 +35,15 @@ public class Employee extends Person {
     }
 
 
-
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + getName() + '\'' +
+                ", gender=" + getName() +
+                ", age=" + getAge() +
+                ", dateOfBirth=" +getDateOfBirth() +
+                "jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 }
