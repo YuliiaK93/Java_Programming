@@ -47,6 +47,13 @@ public final class FinalKeyword extends Student {
         new Student().language();
         new FinalKeyword().language();
 
+        System.out.println("-----------------------------------");
+
+        final String name = "James";
+       // name = null;
+       // name = "Daniel";
+
+        System.out.println(name);
 
 
 
