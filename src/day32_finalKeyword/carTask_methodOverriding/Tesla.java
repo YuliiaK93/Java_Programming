@@ -3,13 +3,13 @@ package day32_finalKeyword.carTask_methodOverriding;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Tesla extends Car{
+public  class Tesla extends Car{
 
     public Tesla(String model, String color, int year, double price) {
         super(model, color, year, price);
     }
 
-    public void autoPilot(){
+    public final  void autoPilot(){
         System.out.println(getMake()+" "+getModel()+" is in self-driving mode");
     }
 
