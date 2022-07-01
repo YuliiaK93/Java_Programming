@@ -7,8 +7,8 @@ public class Employee extends Person {
     private String jobTitle;
     private double salary;
 
-    public Employee(String name, char gender, int age, LocalDate dateOfBirth, String jobTitle, double salary) {
-        super(name, gender, age, dateOfBirth);
+    public Employee(String name, char gender, LocalDate dateOfBirth, String jobTitle, double salary) {
+        super(name, gender, dateOfBirth);
         setJobTitle(jobTitle);
         setSalary(salary);
     }
@@ -29,7 +29,6 @@ public class Employee extends Person {
         this.salary = salary;
     }
 
-
     public void work(){
         System.out.println(getName() +" is working");
     }
@@ -39,11 +38,14 @@ public class Employee extends Person {
     public String toString() {
         return "Employee{" +
                 "name='" + getName() + '\'' +
-                ", gender=" + getName() +
+                ", gender=" + getGender() +
                 ", age=" + getAge() +
                 ", dateOfBirth=" +getDateOfBirth() +
                 "jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
     }
+
+
+
 }
