@@ -21,7 +21,7 @@ public class Tesla extends Car{
     @Override
     public void setModel(String model) {
         ArrayList<String> models = new ArrayList<>();
-        models.addAll(Arrays.asList("Model S", "Model Y", "Model x", "Model 3"));
+        models.addAll(Arrays.asList("Model S", "Model Y", "Model X", "Model 3"));
 
        if(!models.contains(model)){ // if specified model is not valid model
            System.err.println("Invalid Tesla Model: "+model);
