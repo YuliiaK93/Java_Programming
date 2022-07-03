@@ -29,6 +29,9 @@ OOP Abstractrion:
 		4. extends vs implements
 
 
+	Parent class' abstract methods must be overriden in child (non-abstract) class
+
+
 
 methods:
 	
