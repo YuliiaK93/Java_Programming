@@ -4,7 +4,7 @@ import day32_finalKeyword.personTask.Person;
 
 import java.time.LocalDate;
 
-public class CydeoDevStudent extends Person {
+public final class CydeoDevStudent extends Person {
 
     private final String id;
     private String batchName;
@@ -14,7 +14,7 @@ public class CydeoDevStudent extends Person {
 
     public CydeoDevStudent(String name, char gender, LocalDate dateOfBirth, String id, String batchName, int batchNumber) {
         super(name, gender, dateOfBirth);
-        if(getAge() < 18){ // if age is set to less than 18
+        if (getAge() < 18) { // if age is set to less than 18
             System.err.println("Cydeo Developer student must be at least 18 years old");
             System.exit(1);
         }
@@ -40,24 +40,51 @@ public class CydeoDevStudent extends Person {
     }
 
     public void setBatchName(String batchName) {
-        if(batchName.equalsIgnoreCase("zero to hero") || batchName.equalsIgnoreCase("alumni dev")) {
+        if (batchName.equalsIgnoreCase("zero to hero") || batchName.equalsIgnoreCase("alumni dev")) {
             this.batchName = batchName;
-        }else{ // otherwise: if the batch name is invalid
-            System.err.println("Invalid batch name: "+batchName +" \n No such a batch in Cydeo");
+        } else { // otherwise: if the batch name is invalid
+            System.err.println("Invalid batch name: " + batchName + " \n No such a batch in Cydeo");
             System.exit(1);
         }
     }
 
     public void setBatchNumber(int batchNumber) {
 
-        if(batchNumber <= 0){
-            System.err.println("Invalid batch number: "+batchNumber+"\nBatch number can not be negative or zero");
+        if (batchNumber <= 0) {
+            System.err.println("Invalid batch number: " + batchNumber + "\nBatch number can not be negative or zero");
             System.exit(1);
         }
 
         this.batchNumber = batchNumber;
     }
 
+    @Override
+    public void eat() {
+        System.out.println(getName() + " is eating " + programmingLanguage);
+    }
+
+    @Override
+    public void drink() {
+        System.out.println(getName() + " is drinking " + programmingLanguage);
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println(getName()+" does not need to sleep");
+    }
+
+    @Override
+    public String toString() {
+        return "CydeoDevStudent{" +
+                "name='" + getName() + '\'' +
+                ", gender=" + getGender() +
+                ", age=" + getAge() +
+                ", dateOfBirth=" + getDateOfBirth() +
+                ", id='" + id + '\'' +
+                ", batchName='" + batchName + '\'' +
+                ", batchNumber=" + batchNumber +
+                '}';
+    }
 
 
 }
