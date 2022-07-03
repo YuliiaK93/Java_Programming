@@ -1,13 +1,13 @@
 Java Programming Day33
 
 Topics: OOP Abstraction
-			Abstract Method
-			Abstract Class
+			- Abstract Method
+			- Abstract Class
 
 Package name: day33_abstraction
 
 Warmup tasks:
-	1. Create a sub class of Person (from day32 package) named CydeoDevStudents (final)
+	1. Create a sub class of Person (from day32 package) named CydeoDevStudent (final)
 			Extra Variables:
 				id (final), batchName, batchNumber, programmingLanguage(static & final)
 
@@ -24,3 +24,9 @@ Warmup tasks:
 
 
 
+
+OOP Abstractrion:
+		1. abstrct method
+		2. abstract class
+		3. interface
+		4. extends vs implements
