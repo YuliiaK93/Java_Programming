@@ -1,6 +1,6 @@
 package day33_abstraction.employeeTask;
 
-public class Employee {
+public abstract class Employee {
 
     private String name;
     private int age;
@@ -8,6 +8,7 @@ public class Employee {
     private String id;
     private String jobTitle;
     private double salary;
+
 
     public Employee(String name, int age, char gender, String id, String jobTitle, double salary) {
        setName(name);
@@ -67,9 +68,19 @@ public class Employee {
     }
 
 
+    public abstract void work(); // abstract method (uncompleted method)
 
 
-
+    public String toString() {
+        return getClass().getSimpleName()+"{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", id='" + id + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
+                ", salary=" + salary +
+                '}';
+    }
 
 
 }
