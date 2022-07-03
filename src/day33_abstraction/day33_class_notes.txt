@@ -22,11 +22,69 @@ Warmup tasks:
 
 
 
-
-
-
 OOP Abstractrion:
 		1. abstrct method
 		2. abstract class
 		3. interface
 		4. extends vs implements
+
+
+
+methods:
+	
+	public static void methodName(Paremeters) { }
+
+
+
+
+employeeTask
+	
+	Employee:
+		Variables:
+			name, age, gender, id, jobTitle, salary ....
+
+		Methods:
+		  abstract work();
+
+    Teacher:
+    	work(){ teaching }
+
+
+	Developer:
+		work() { coding }
+
+	Tester:
+		work(){ testing }
+
+	Driver:
+		work() { driving }
+
+	...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
