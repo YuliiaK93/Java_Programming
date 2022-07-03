@@ -23,6 +23,10 @@ public class Developer extends Employee {
         System.out.println(getName() +" is coding in "+programmingLanguage);
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString().replace("}", "") +
+                ", programming language=" + programmingLanguage + "}";
+    }
 
 }
