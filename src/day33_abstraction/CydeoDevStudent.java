@@ -43,7 +43,7 @@ public final class CydeoDevStudent extends Person {
         if (batchName.equalsIgnoreCase("zero to hero") || batchName.equalsIgnoreCase("alumni dev")) {
             this.batchName = batchName;
         } else { // otherwise: if the batch name is invalid
-            System.err.println("Invalid batch name: " + batchName + " \n No such a batch in Cydeo");
+            System.err.println("Invalid batch name: " + batchName + " \nNo such a batch at Cydeo");
             System.exit(1);
         }
     }
