@@ -83,6 +83,17 @@ Animal task:
 
 
 
+Person implement Swimmable, Playable
+
+Boat implement Swimmable
+
+Airpalne implements Flyable
+
+CydeoCar implement Swimmable, Flyable
+
+PlayStation implements Playable
+
+
 
 
 
