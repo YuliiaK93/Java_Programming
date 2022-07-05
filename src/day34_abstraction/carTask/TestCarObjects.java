@@ -28,6 +28,10 @@ public class TestCarObjects {
         audi.start();
         tesla.start();
 
+        System.out.println("--------------------------------------------");
+        audi.autoPark();
+        tesla.autoPilot();
+
 
 
     }
