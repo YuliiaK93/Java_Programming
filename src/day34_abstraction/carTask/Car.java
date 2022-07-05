@@ -1,6 +1,6 @@
 package day34_abstraction.carTask;
 
-public class Car {
+public abstract class Car { // meat to be inherited, can not be instantiated
 
     private final String make, model;
     private String color;
@@ -53,6 +53,21 @@ public class Car {
     }
 
 
+    protected final void stop(){ // to make sure that non-sub classes outside the package can not access it
+        System.out.println("Press the brake to stop " + make +" "+model);
+    }
+
+    protected abstract void start(); // meant to be overridden
+
+    @Override
+    public String toString() {
+        return make +"{" +
+                "model='" + model + '\'' +
+                ", color='" + color + '\'' +
+                ", year=" + year +
+                ", price= $" + price +
+                '}';
+    }
 
 
 
@@ -72,7 +87,7 @@ public class Car {
 				Note: Class name can be set to the make of the car
 
 			Methods:
-				stop() (final): prints "Presse the brake"
+				stop() (final): prints "Press the brake"
 
 				start() (abstract)
 
