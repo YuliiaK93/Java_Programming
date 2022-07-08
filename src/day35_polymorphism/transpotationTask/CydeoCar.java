@@ -1,9 +1,21 @@
 package day35_polymorphism.transpotationTask;
 
-public class Tesla extends Car implements Electric, AutoPilot{
+import day34_abstraction.animalTask.Flyable;
+import day34_abstraction.animalTask.Swimmable;
 
-    public Tesla(String make, String model, String color, int year, double price) {
+public class CydeoCar extends Car implements Flyable, Electric, AutoPilot, Swimmable {
+    public CydeoCar(String make, String model, String color, int year, double price) {
         super(make, model, color, year, price);
+    }
+
+    @Override
+    public void fly() {
+
+    }
+
+    @Override
+    public void swim() {
+
     }
 
     @Override
