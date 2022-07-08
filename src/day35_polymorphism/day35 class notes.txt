@@ -92,7 +92,6 @@ extends vs implements:
 
 
 Task:
-
 	 Employee[] employees = {
                 new Tester("Hamza", 32, 'M', "A01", "QA", 110000),
                 new Developer("Lucy", 27, 'F', "A02", "Java Developer", 128000, "Java"),
