@@ -62,6 +62,13 @@ public class PolymorphismPractice3 {
 
         System.out.println("--------------------------------------------------------");
 
+        for (Employee each : employees) {
+            if( !(each instanceof Developer) ){
+                System.out.println(each.getName());
+            }
+        }
+
+
 
     }
 
