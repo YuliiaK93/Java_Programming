@@ -6,6 +6,10 @@ import day29_inheritance.animalTask.Dog;
 import day30_inheritance.phoneTask.IPhone;
 import day30_inheritance.phoneTask.Nokia;
 import day30_inheritance.phoneTask.Phone;
+import day33_abstraction.employeeTask.Developer;
+import day33_abstraction.employeeTask.Driver;
+import day33_abstraction.employeeTask.Employee;
+import day33_abstraction.employeeTask.Tester;
 
 public class ReferenceTypeCastings {
 
@@ -49,6 +53,14 @@ public class ReferenceTypeCastings {
 
         System.out.println("-------------------------------------------------------------");
 
+        Employee employee = new Developer("Lucy", 30, 'F', "C1", "Java Developer", 95000, "Java");
+
+        employee.work();
+
+        System.out.println( ((Developer) employee).getProgrammingLanguage() );
+
+
+    //    Driver driver = (Driver) employee;
 
 
 
