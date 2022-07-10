@@ -26,14 +26,22 @@ Warmup task:
                 new IPhone("Iphone 7", "Smalle", "White", 500)
         };
 
+
     1. print the model, color and price of each phone object in the following format
     				model - color - price
 
 	2. How many Iphones in the array of phones?
 
-	3. How many Samsung in the array of phones?
+	3. How many Samsungs in the array of phones?
 
 	4. Display the models of Iphones and samsung that has the price of 700 or greater 
+
+
+
+
+
+
+
 
 
 
