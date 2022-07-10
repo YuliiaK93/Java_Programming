@@ -38,6 +38,34 @@ Warmup task:
 
 
 
+castings: converting one type to another
+
+2 types of type castings:
+		
+		1. Primitive Type Castings: must happen between primitives
+
+				1. implicit primitive type casting: casting smaller primitive type to larger primitive type  (done implicitly)
+
+								int a = 100;
+								double b = a; // implcitly casted to double
+
+				2. explicit primitive type casting: casting larger primitive type to smaller primitive type
+
+								long a = 100;
+								short b = (short)a;
+
+
+
+		2. Reference Type Castings: THERE MUST BE INHERITANCE
+
+			  1. Upcasting: casting the sub type to super type (done implicitly)
+
+			  			Car car	= new BMW();
+
+			  2. Downcasting: casting the super type to sub type (done explicitly)
+
+
+
 
 
 
