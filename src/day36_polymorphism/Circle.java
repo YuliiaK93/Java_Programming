@@ -26,5 +26,14 @@ public class Circle {
         return 2 * radius * PI;
     }
 
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", area=" + area() +
+                ", perimeter=" + area() +
+                '}';
+    }
+
 
 }
