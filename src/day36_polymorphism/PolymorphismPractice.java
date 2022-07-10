@@ -8,6 +8,7 @@ import day32_finalKeyword.carTask_methodOverriding.Toyota;
 
 public class PolymorphismPractice {
 
+
     public static void main(String[] args) {
 
      //   IPhone phone = new Phone("Iphone 11 Pro", "Large", "Black", 900);
@@ -72,9 +73,12 @@ public class PolymorphismPractice {
         }
 
 
+        // ==,  .equals()
 
 
     }
+
+
 
 }
 /*
