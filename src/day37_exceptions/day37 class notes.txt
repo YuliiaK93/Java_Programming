@@ -4,6 +4,8 @@ Topics: Exceptions
 			- check vs unchecked
 			- try & catch
 
+		Error vs Exception
+
 package name: day37_exceptions
 
 warmup tasks:
@@ -24,6 +26,15 @@ warmup tasks:
 
 
 			
+Exceptions Topics:
+	1. Exceptions Intro
+	2. Checkd & unchecked
+	3. Try & Cacth
+	4. Throws Keyword
+	5. Throw keyword
+	6. Custom Exception
+
+	7. Error vs Exceptions
 
 
 
