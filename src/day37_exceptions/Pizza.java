@@ -11,7 +11,6 @@ public class Pizza {
        setNumberOfPepperoniTopping(numberOfPepperoniTopping);
     }
 
-
     public char getSize() {
         return size;
     }
@@ -63,8 +62,31 @@ public class Pizza {
         return totalPrice;
     }
 
+    public String toString() {
+        return "Pizza{" +
+                "size=" + size +
+                ", numberOfCheeseTopping=" + numberOfCheeseTopping +
+                ", numberOfPepperoniTopping=" + numberOfPepperoniTopping +
+                ", total price=" + calcCost() +
+                '}';
+    }
 
+    @Override
+    public boolean equals(Object obj) {
 
+        if( !(obj instanceof Pizza )){ // if the specified object is not pizza
+            System.err.println("Invalid object: "+obj);
+            System.exit(1);
+        }
+
+        if(size ==   ( (Pizza)obj ).size   ){
+            if( numberOfPepperoniTopping == ( (Pizza)obj ).numberOfPepperoniTopping){
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
 
 /*
