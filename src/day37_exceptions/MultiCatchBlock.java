@@ -34,6 +34,20 @@ public class MultiCatchBlock {
         System.out.println("Program1 ended");
 
 
+  /*
+        try{
+
+        }catch (RuntimeException e){
+
+        }try{
+
+        }try{
+
+        }try{
+
+        }
+
+   */
 
     }
 
