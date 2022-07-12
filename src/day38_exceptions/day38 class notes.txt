@@ -3,7 +3,7 @@ Java Programming Day38
 Topics: Exceptions Continue
 			- throws keyword
 			- throw keyword
-			- Custom Exception
+			- Custom Exception Class
 
 package name: day38_exceptions
 
@@ -68,7 +68,12 @@ throw: used for manually throwing exception
 
 
 
+Custom Exception:
+	1. how to create custom unchecked exception?
+			by inherting from RuntimeException class
 
+	2. how to create custom checked exception?
+			by inherting from Exception class
 
 
 
