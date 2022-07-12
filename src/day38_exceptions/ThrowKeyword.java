@@ -1,12 +1,15 @@
 package day38_exceptions;
 
+import day33_abstraction.employeeTask.Employee;
+import day35_polymorphism.transpotationTask.Car;
+
 import java.io.FileNotFoundException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ThrowKeyword {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         System.out.println("Enter your age: ");
 
@@ -37,6 +40,16 @@ public class ThrowKeyword {
         } catch (FileNotFoundException e) {
           e.printStackTrace();
         }
+
+        System.out.println("-----------------------------------------------------------");
+
+        RuntimeException exception = new RuntimeException();
+
+       // throw exception;
+       // throw new RuntimeException();
+
+       // throw new Person("Jimmy", 45, 'M');
+
 
 
     }
