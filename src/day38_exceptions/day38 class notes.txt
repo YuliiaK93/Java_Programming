@@ -1,0 +1,10 @@
+Java Programming Day38
+
+Topics: Exceptions
+			- throws keyword
+			- throw keyword
+			- Custom Exception
+
+package name: day38_exceptions
+
+
