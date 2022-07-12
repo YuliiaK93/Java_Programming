@@ -53,6 +53,9 @@ Exception handlings:
 								System.exit(1)
 
 
+		2. throws keyword: used for handling chekced exceptions ONLY
+
+						caller of the method will be responsible for handling the exception
 
 
 
