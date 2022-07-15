@@ -56,7 +56,38 @@ public class SetDemo {
 
         System.out.println("----------------------------------------");
 
+        String[] words = {"Java", "Java", "Java", "Python", "Python", "C#", "C++", "Ruby", "C#", "C#"};
 
+        Set<String> result = new LinkedHashSet<>();
+        result.addAll( Arrays.asList(words) );
+
+        System.out.println(result);
+
+        /*
+        // System.out.println(result.get(1));
+
+        for (String each : result) {
+            System.out.println(each);
+        }
+        */
+
+        System.out.println( new ArrayList<>(result).get(1) );
+
+        words = result.toArray(new String[0]);
+
+
+        System.out.println("Words Array : " + Arrays.toString(words));
+
+
+        System.out.println("----------------------------------------");
+
+
+        List<Integer> numbers = new ArrayList<>();
+        numbers.addAll(Arrays.asList(10, 10, 10, 20, 20, 30, 30, 30, 40, 40, 40, 50, 50, 50,5, 5, 5, 1, 1, 1, 2, 2,2));
+
+        Set<Integer> n = new TreeSet<>(numbers);
+
+        System.out.println(n);
 
 
 
