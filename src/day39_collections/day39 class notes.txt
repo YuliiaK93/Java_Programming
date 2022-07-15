@@ -8,6 +8,14 @@ Topics: Collections
 package name: day39_collections
 
 
-Elements: 	5, 0, 10, 8, 25
+Elements: 	5, 0, 10, 8, 25, 5, 0
 
-List = [5, 0, 10, 8, 25]
+List = [5, 0, 10, 8, 25, 5, 0]
+
+
+Creating custom Thread in java:
+		1. Thread Class 
+		2. Runnable Interface
+
+Multi-threading:
+	Multiple thread objects are executed at the same time
