@@ -1,0 +1,13 @@
+Java Programming Day39
+
+Topics: Collections
+			- List
+			- Set
+			- Queue
+
+package name: day39_collections
+
+
+Elements: 	5, 0, 10, 8, 25
+
+List = [5, 0, 10, 8, 25]
