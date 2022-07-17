@@ -3,7 +3,6 @@ Java Programming Day39
 Topics: Collections
 			- List
 			- Set
-			- Queue
 
 package name: day39_collections
 
