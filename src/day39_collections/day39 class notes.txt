@@ -48,7 +48,6 @@ Collection (I): size is dynamic, supports non-primitives ONLY
 		3. Queue (I)
 
 
-
 Synchronized: multiple threads are being executed one thread at a time
 			
 			advantage: thread-safety
@@ -61,15 +60,13 @@ Thread: A sequence of execution within a process
 
 
 Creating custom Thread in java:
-		1. by inherting Thread Class 
-		2. by inherting Runnable Interface
+		1. by inheriting Thread Class
+		2. by inheriting Runnable Interface
 
 Multi-threading:
 	Multiple thread objects are executed at the same time
 
-
-
-Multi-tasking:
+Multitasking:
 		two or more process are running
 
 
