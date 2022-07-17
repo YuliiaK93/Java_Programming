@@ -1,0 +1,7 @@
+Java Programming Day40
+
+Topics: Collections Continie
+				- Queue
+				- Iterable
+
+package name: day40_collections
