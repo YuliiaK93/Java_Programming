@@ -36,7 +36,6 @@ public class IterableExample {
         list2.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7));
 
         Iterator<Integer> it = list2.iterator();
-
         while (it.hasNext()) {
             Integer each = it.next();
             if (each < 5) {
@@ -65,6 +64,16 @@ public class IterableExample {
 
         System.out.println(list3);
 
+
+
+        System.out.println("-----------------------------------------------------");
+
+        List<Integer> list4 = new ArrayList<>();
+        list4.addAll(Arrays.asList(1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7));
+
+        list4.removeIf( each -> each < 5);
+
+        System.out.println(list4);
 
 
 
