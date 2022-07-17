@@ -1,9 +1,6 @@
 package day40_collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class IterablePractice1 {
 
@@ -50,8 +47,23 @@ public class IterablePractice1 {
 
 
 
+        System.out.println("--------------------------------------------------------------------");
 
 
+        List<Integer> numbers = new ArrayList<>();
+        numbers.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9));
+
+        // find the nth largest number
+
+        int n = 5;
+
+        for (int i = 0; i < n-1; i++) {
+            numbers.removeIf(p -> Collections.max(numbers) == p);
+        }
+
+        int max = Collections.max(numbers);
+
+        System.out.println(max);
 
 
 
