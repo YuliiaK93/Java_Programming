@@ -19,3 +19,9 @@ Array vs Collection: both supports non primitives
 					Can not be multi-dimensional
 
 					Ready methods
+
+
+Map (I): Collection of Pairs (key & value)
+		 Supports non-primitives ONLY
+		 Size is dynamic
+		 Key MUST be unique, value can be duplicated
