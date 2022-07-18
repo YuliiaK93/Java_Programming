@@ -25,3 +25,30 @@ Map (I): Collection of Pairs (key & value)
 		 Supports non-primitives ONLY
 		 Size is dynamic
 		 Key MUST be unique, value can be duplicated
+
+
+		1. HashMap (C): Random order
+						Both key and value can be null
+
+
+		2. LinkedHashMap (C): Insertion order
+							  Both key and value can be null
+
+
+		3. TreeMap (C): Sorted order
+						Key can not be null, value can be null
+
+
+		4. HashTable (C): Random order
+						  Both key and value can NOT be null
+						  Synchronized
+
+
+
+
+
+
+
+
+
+
