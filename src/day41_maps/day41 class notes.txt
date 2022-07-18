@@ -5,3 +5,17 @@ Topics: Maps
 Package name: day41_maps
 
 
+Array vs Collection: both supports non primitives
+		
+		Array: Size is fixed
+			   Supports both primitives & non-primitives
+			   Can be mult-dimensional
+
+			   Faster than Collection
+
+
+		Collection: Size is dynamic
+					Supports non-primitives ONLY
+					Can not be multi-dimensional
+
+					Ready methods
