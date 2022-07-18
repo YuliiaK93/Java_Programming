@@ -34,6 +34,24 @@ public class MapMethods {
         map.replace("A07", "Marika");
         System.out.println(map);
 
+        map.remove("A05");
+
+        System.out.println(map);
+
+
+        System.out.println(map.containsKey("B03"));
+        System.out.println( map.containsKey("H98"));
+
+        System.out.println(map.containsValue("Lucy"));
+        System.out.println(map.containsValue("Muhtar"));
+
+        System.out.println(map.isEmpty());
+        System.out.println(map.equals(map));
+
+        map.clear();
+
+        System.out.println(map);
+
 
 
     }
