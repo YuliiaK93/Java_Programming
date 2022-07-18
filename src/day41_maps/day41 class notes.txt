@@ -36,7 +36,7 @@ Map (I): Collection of Pairs (key & value)
 
 
 		3. TreeMap (C): Sorted order
-						Key can not be null, value can be null
+						Key can not be null, values can be null
 
 
 		4. HashTable (C): Random order
