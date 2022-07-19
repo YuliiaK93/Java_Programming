@@ -85,6 +85,19 @@ public class MapPractice2 {
         }
 
 
+        System.out.println("---------------------------------------------------");
+
+        listOfMaps.get(0).replace("name", "Vasyl");
+
+        listOfMaps.get(listOfMaps.size()-1).replace("salary",  ( (Integer)listOfMaps.get(listOfMaps.size()-1).get("salary")) + 50000 );
+
+        listOfMaps.get(1).replace("age",   ( (Integer)listOfMaps.get(1).get("age")) + 4) ;
+
+        System.out.println(listOfMaps);
+
+
+
+
 
 
 
