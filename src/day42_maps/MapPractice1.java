@@ -23,6 +23,64 @@ public class MapPractice1 {
         employeeMap.put("Marika", "F");
 
         System.out.println("---------------------------------------------");
+        // how many female & male employees in the map?
+        int countMaleEmployee = 0;
+        int countFemaleEmployees = 0;
+
+        /*
+        for (String name : employeeMap.keySet()) {
+            String gender = employeeMap.get(name);
+            if(gender.equals("M")){
+                countMaleEmployee++;
+            }else{
+                countFemaleEmployees++;
+            }
+        }
+        */
+        for (String eachValue : employeeMap.values()) {
+            if(eachValue.equals("F")){
+                countFemaleEmployees++;
+            }else{
+                countMaleEmployee++;
+            }
+        }
+
+        System.out.println("Male Employees: " + countMaleEmployee);
+        System.out.println("Female Employees: " + countFemaleEmployees);
+
+        System.out.println("---------------------------------------------");
+        // display the names of all the female employees
+
+        /*
+        for (String name : employeeMap.keySet()) {
+            String gender =employeeMap.get(name);
+            if(gender.equals("F")){
+                System.out.println(name);
+            }
+        }
+
+         */
+        for (Map.Entry<String, String> eachEntry : employeeMap.entrySet()) {
+            if(eachEntry.getValue().equals("F")){
+                System.out.println(eachEntry.getKey());
+            }
+        }
+
+        System.out.println("---------------------------------------------");
+        // update all the "M" values with "Male", "F" values with "Female"
+
+        for (Map.Entry<String, String> eachEntry : employeeMap.entrySet()) {
+            if(eachEntry.getValue().equals("M")){
+                eachEntry.setValue("Male");
+            }else{
+                eachEntry.setValue("Female");
+            }
+        }
+
+        System.out.println(employeeMap);
+
+
+
 
 
 
