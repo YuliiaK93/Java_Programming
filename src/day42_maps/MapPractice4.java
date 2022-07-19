@@ -1,7 +1,11 @@
 package day42_maps;
 
+import day33_abstraction.employeeTask.Developer;
+import day34_abstraction.carTask.Car;
+
 import java.time.LocalDate;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class MapPractice4 {
@@ -53,6 +57,46 @@ public class MapPractice4 {
         person5.put("salary", 90000);
         person5.put("hired_date", LocalDate.of(2022, 10, 15));
         person5.put("married", true);
+
+
+
+        Map<Integer, Map<String, Object>> mapOfMaps = new LinkedHashMap<>();
+        mapOfMaps.put(0, person1);
+        mapOfMaps.put(1, person2);
+        mapOfMaps.put(2, person3);
+        mapOfMaps.put(3, person4);
+        mapOfMaps.put(4, person5);
+
+       // mapOfMaps.putAll();
+
+        System.out.println(mapOfMaps);
+
+        mapOfMaps.get(1).replace("salary", 120000);
+
+        System.out.println( mapOfMaps.get(1) );
+
+        System.out.println("-----------------------------------------------------------");
+
+        for (Map<String, Object> eachValue : mapOfMaps.values()) {
+            for (Map.Entry<String, Object> eachEntry : eachValue.entrySet()) {
+                if(eachEntry.getKey().equals("salary")){
+                    eachEntry.setValue( (Integer)eachEntry.getValue() + 10000);
+                }
+            }
+        }
+
+        System.out.println(mapOfMaps);
+
+        System.out.println("-----------------------------------------------------------");
+
+        Map< Map<String, Integer> , Map<String, Integer>> mapOfMaps2 = new LinkedHashMap<>();
+
+        Map<int[], List<Integer>> map2 = new LinkedHashMap<>();
+
+        Map<Developer, Car> map3 = new LinkedHashMap<>();
+
+
+
 
 
     }
