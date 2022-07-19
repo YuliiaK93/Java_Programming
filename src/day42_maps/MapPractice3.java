@@ -14,7 +14,7 @@ public class MapPractice3 {
         person1.put("gender", 'M');
         person1.put("age", 32);
         person1.put("job_title", "Developer");
-        person1.put("salary", 100000.5);
+        person1.put("salary", 100000);
         person1.put("hired_date", LocalDate.of(2021, 1, 15));
         person1.put("married", true);
 
@@ -64,8 +64,26 @@ public class MapPractice3 {
         arrayOfMap[4] = person5;
         // arrayOfMap[5] = new LinkedHashMap<>();
 
+        arrayOfMap[1].replace("salary", ( (Integer)arrayOfMap[1].get("salary") ) + 10000);
+        arrayOfMap[0].replace("name", "Hasan");
+
         System.out.println(Arrays.toString(arrayOfMap));
 
+        System.out.println("------------------------------------------------");
+        int count = 0;
+        for (Map<String, Object> eachMap : arrayOfMap) {
+            for (Map.Entry<String, Object> eachEntry : eachMap.entrySet()) {
+                if(eachEntry.getKey().equals("salary")){
+                    double salary = (Integer)eachEntry.getValue();
+                    if(salary < 100000){
+                        count++;
+                    }
+                }
+            }
+        }
+
+
+        System.out.println(count);
 
 
     }
