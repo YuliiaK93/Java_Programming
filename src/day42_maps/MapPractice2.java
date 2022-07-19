@@ -27,16 +27,36 @@ public class MapPractice2 {
         person2.put("married", true);
 
         Map<String, Object> person3 = new LinkedHashMap<>();
+        person3.put("name", "Iskender");
+        person3.put("gender", 'M');
+        person3.put("age", 31);
+        person3.put("job_title", "Front-End Developer");
+        person3.put("salary", 90000);
+        person3.put("hired_date", LocalDate.of(2022, 9, 15));
+        person3.put("married", true);
 
         Map<String, Object> person4 = new LinkedHashMap<>();
+        person4.put("name", "Abidullah");
+        person4.put("gender", 'M');
+        person4.put("age", 31);
+        person4.put("job_title", "Java Developer");
+        person4.put("salary", 90000);
+        person4.put("hired_date", LocalDate.of(2021, 8, 15));
+        person4.put("married", true);
 
         Map<String, Object> person5 = new LinkedHashMap<>();
+        person5.put("name", "Umran");
+        person5.put("gender", 'F');
+        person5.put("age", 31);
+        person5.put("job_title", "Back-end Developer");
+        person5.put("salary", 90000);
+        person5.put("hired_date", LocalDate.of(2022, 10, 15));
+        person5.put("married", true);
 
         List<Map<String, Object>> listOfMaps = new ArrayList<>();
         listOfMaps.add(person1);
         listOfMaps.add(person2);
-
-      //  listOfMaps.addAll(Arrays.asList(person3, person4, person5 ) );
+        listOfMaps.addAll(Arrays.asList(person3, person4, person5 ) );
 
         System.out.println(listOfMaps);
 
@@ -54,6 +74,15 @@ public class MapPractice2 {
 
         // display the names of the employee who are hired this year (2022)
 
+        for (Map<String, Object> eachMap : listOfMaps) {
+            for (Map.Entry<String, Object> eachEntry : eachMap.entrySet()) {
+                if(eachEntry.getKey().equals("hired_date")){
+                    if(  ( (LocalDate)eachEntry.getValue() ).getYear() == 2022 ){
+                        System.out.println(eachMap.get("name"));
+                    }
+                }
+            }
+        }
 
 
 
