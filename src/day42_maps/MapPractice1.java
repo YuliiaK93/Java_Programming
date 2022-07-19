@@ -22,7 +22,7 @@ public class MapPractice1 {
         employeeMap.put("Selle", "F");
         employeeMap.put("Marika", "F");
 
-
+        System.out.println("---------------------------------------------");
 
 
 
